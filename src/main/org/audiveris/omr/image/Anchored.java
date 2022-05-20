@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.image;
 
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Interface <code>Anchored</code> handles anchor positions relative to a rectangular area.

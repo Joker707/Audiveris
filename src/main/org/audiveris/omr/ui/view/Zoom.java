@@ -27,10 +27,10 @@ import org.audiveris.omr.constant.ConstantSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Line2D;
+import myJava.awt.Dimension;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Line2D;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;

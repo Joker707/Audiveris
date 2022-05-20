@@ -51,9 +51,9 @@ import org.jgrapht.graph.DirectedMultigraph;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Area;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Area;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;

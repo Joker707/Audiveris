@@ -37,7 +37,7 @@ import org.jdesktop.application.ResourceMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>SectionBoard</code> defines a board dedicated to the display of {@link

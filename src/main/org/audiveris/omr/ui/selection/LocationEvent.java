@@ -24,7 +24,7 @@ package org.audiveris.omr.ui.selection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>LocationEvent</code> is UI Event that represents a new location (a rectangle,

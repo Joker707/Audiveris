@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.glyph.dynamic;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import org.audiveris.omr.constant.Constant;
 import org.audiveris.omr.constant.ConstantSet;
 import org.audiveris.omr.lag.Section;
@@ -37,8 +37,8 @@ import org.audiveris.omr.util.StopWatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;

@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 import java.util.List;
 
 /**

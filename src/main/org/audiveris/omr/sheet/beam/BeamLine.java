@@ -23,7 +23,7 @@ package org.audiveris.omr.sheet.beam;
 
 import org.audiveris.omr.util.Vip;
 
-import java.awt.geom.Line2D;
+import myJava.awt.geom.Line2D;
 import java.util.ArrayList;
 import java.util.List;
 

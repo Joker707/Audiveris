@@ -38,8 +38,8 @@ import org.audiveris.omr.util.Entities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;

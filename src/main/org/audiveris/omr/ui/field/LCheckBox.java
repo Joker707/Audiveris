@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.field;
 
-import java.awt.event.ActionListener;
+import myJava.awt.event.ActionListener;
 
 import javax.swing.JCheckBox;
 

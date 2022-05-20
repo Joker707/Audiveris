@@ -31,9 +31,9 @@ import org.audiveris.omr.ui.util.UIUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.Stroke;
+import myJava.awt.Graphics2D;
+import myJava.awt.Rectangle;
+import awt.Stroke;
 import java.util.Collection;
 
 /**

@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.text;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>TextChar</code> manages information about a OCR-decoded character.

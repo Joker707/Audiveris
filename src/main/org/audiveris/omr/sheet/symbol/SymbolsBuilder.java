@@ -49,8 +49,8 @@ import org.jgrapht.graph.SimpleGraph;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.EnumSet;

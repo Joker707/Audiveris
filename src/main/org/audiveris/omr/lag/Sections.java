@@ -27,8 +27,8 @@ import org.audiveris.omr.util.Entities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.Shape;
+import myJava.awt.Rectangle;
+import myJava.awt.Shape;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;

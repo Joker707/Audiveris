@@ -32,10 +32,10 @@ package org.audiveris.omr.math;
 // History:            First version
 // History:
 //=============================================================================
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
+import myJava.awt.Shape;
+import myJava.awt.geom.AffineTransform;
 import java.awt.geom.IllegalPathStateException;
-import java.awt.geom.PathIterator;
+import myJava.awt.geom.PathIterator;
 
 /**
  * A path iterator which iterates over a path in the reverse direction.
@@ -47,24 +47,24 @@ import java.awt.geom.PathIterator;
  * iterator from
  * a shape directly:
  * <ul>
- * <li>{@link #getReversePathIterator(java.awt.Shape)}
+ * <li>{@link #getReversePathIterator(Shape)}
  * for reversing the standard path iterator</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, double)}
+ * <li>{@link #getReversePathIterator(Shape, double)}
  * for reversing a flattened path iterator</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, java.awt.geom.AffineTransform)}
+ * <li>{@link #getReversePathIterator(Shape, AffineTransform)}
  * for reversing a transformed path iterator</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, java.awt.geom.AffineTransform, double)}
+ * <li>{@link #getReversePathIterator(Shape, AffineTransform, double)}
  * for reversing a transformed flattened path iterator</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, int)}
+ * <li>{@link #getReversePathIterator(Shape, int)}
  * for reversing the standard path iterator while explicitely defining a winding
  * rule</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, double, int)}
+ * <li>{@link #getReversePathIterator(Shape, double, int)}
  * for reversing a flattened path iterator while explicitely defining a winding
  * rule</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, java.awt.geom.AffineTransform, int)}
+ * <li>{@link #getReversePathIterator(Shape, AffineTransform, int)}
  * for reversing a transformed path iterator while explicitely defining a
  * winding rule</li>
- * <li>{@link #getReversePathIterator(java.awt.Shape, java.awt.geom.AffineTransform, double, int)}
+ * <li>{@link #getReversePathIterator(Shape, AffineTransform, double, int)}
  * for reversing a transformed flattened path iterator while explicitely
  * defining a winding rule</li>
  * </ul>

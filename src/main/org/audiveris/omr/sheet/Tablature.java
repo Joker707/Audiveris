@@ -24,7 +24,7 @@ package org.audiveris.omr.sheet;
 import org.audiveris.omr.sheet.grid.LineInfo;
 import org.audiveris.omr.sheet.note.NotePosition;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;

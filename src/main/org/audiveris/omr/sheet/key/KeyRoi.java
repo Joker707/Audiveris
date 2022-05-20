@@ -34,11 +34,11 @@ import org.audiveris.omr.sig.inter.KeyAlterInter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.image.BufferedImage;
+import myJava.awt.Color;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

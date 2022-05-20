@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sig.inter;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

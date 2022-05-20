@@ -43,12 +43,12 @@ import org.audiveris.omr.util.Entity;
 import org.audiveris.omr.util.Version;
 import org.audiveris.omr.util.WrappedBoolean;
 
-import java.awt.Color;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Area;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.Color;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;

@@ -30,8 +30,8 @@ import static org.audiveris.omr.util.VerticalSide.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Area;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Area;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

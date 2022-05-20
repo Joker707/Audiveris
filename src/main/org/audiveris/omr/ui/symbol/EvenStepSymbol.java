@@ -25,9 +25,9 @@ import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.ui.symbol.Alignment.AREA_CENTER;
 import static org.audiveris.omr.ui.symbol.Alignment.MIDDLE_LEFT;
 
-import java.awt.Graphics2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.Graphics2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Class <code>EvenStepSymbol</code> is the basis for symbols located on an even step position.

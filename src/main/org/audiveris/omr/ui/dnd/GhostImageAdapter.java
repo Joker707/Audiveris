@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.dnd;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 
 /**
  * Class <code>GhostImageAdapter</code> is a {@link GhostDropAdapter} with a provided image.

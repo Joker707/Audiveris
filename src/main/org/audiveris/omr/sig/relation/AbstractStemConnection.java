@@ -25,8 +25,8 @@ import org.audiveris.omr.sheet.Scale;
 import org.audiveris.omr.sig.inter.Inter;
 import org.audiveris.omr.util.Jaxb;
 
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;

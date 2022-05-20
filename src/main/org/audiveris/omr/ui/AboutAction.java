@@ -41,12 +41,12 @@ import org.jdesktop.application.ResourceMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Dimension;
+import myJava.awt.Color;
+import myJava.awt.Dimension;
 import java.awt.Font;
-import java.awt.Graphics;
+import myJava.awt.Graphics;
 import java.awt.Image;
-import java.awt.event.ActionEvent;
+import myJava.awt.event.ActionEvent;
 import java.net.MalformedURLException;
 import java.net.URI;
 

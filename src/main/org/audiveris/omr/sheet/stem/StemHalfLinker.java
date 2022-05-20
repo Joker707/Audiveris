@@ -25,9 +25,9 @@ import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.glyph.GlyphFactory;
 import org.audiveris.omr.math.LineUtil;
 
-import java.awt.geom.Area;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 import java.util.Set;
 
 /**

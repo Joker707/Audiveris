@@ -63,15 +63,15 @@ import org.audiveris.omr.util.WrappedBoolean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Color;
+import myJava.awt.Dimension;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 import java.awt.font.TextLayout;
-import java.awt.geom.Area;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -263,7 +263,7 @@ public abstract class AbstractInter
     //---------------//
     @Override
     public void addAttachment (String id,
-                               java.awt.Shape attachment)
+                               myJava.awt.Shape attachment)
     {
         Objects.requireNonNull(attachment, "Adding a null attachment");
 
@@ -468,7 +468,7 @@ public abstract class AbstractInter
     // getAttachments //
     //----------------//
     @Override
-    public Map<String, java.awt.Shape> getAttachments ()
+    public Map<String, myJava.awt.Shape> getAttachments ()
     {
         if (attachments != null) {
             return attachments.getAttachments();

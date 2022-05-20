@@ -33,7 +33,6 @@ import org.audiveris.omr.sheet.rhythm.MeasureStack;
 import org.audiveris.omr.sheet.rhythm.Slot;
 import org.audiveris.omr.sheet.rhythm.Voice;
 import org.audiveris.omr.sheet.rhythm.Voices;
-import static org.audiveris.omr.sheet.ui.SheetPainter.halfAT;
 import org.audiveris.omr.sig.SIGraph;
 import org.audiveris.omr.sig.inter.AbstractChordInter;
 import org.audiveris.omr.sig.inter.AbstractNoteInter;
@@ -59,15 +58,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Stroke;
+import myJava.awt.Color;
+import myJava.awt.Graphics;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import awt.Stroke;
 import java.awt.font.TextLayout;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.AffineTransform;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>SheetResultPainter</code> paints the items resulting from the processing of a

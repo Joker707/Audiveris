@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.rhythm;
 
-import java.awt.Color;
+import myJava.awt.Color;
 import org.audiveris.omr.score.LogicalPart;
 import org.audiveris.omr.score.Page;
 import org.audiveris.omr.score.PageRef;

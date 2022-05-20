@@ -23,10 +23,10 @@ package org.audiveris.omr.sheet.curve;
 
 import org.audiveris.omr.math.BasicLine;
 
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.Shape;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.List;
 

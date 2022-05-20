@@ -26,7 +26,7 @@ import org.audiveris.omr.image.DistanceTable;
 import org.audiveris.omr.run.Run;
 import org.audiveris.omr.run.RunTable;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.Iterator;
 
 /**

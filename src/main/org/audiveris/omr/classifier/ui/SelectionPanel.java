@@ -41,7 +41,7 @@ import org.audiveris.omr.ui.util.Panel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.event.ActionEvent;
+import myJava.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;

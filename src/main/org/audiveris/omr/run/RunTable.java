@@ -24,7 +24,6 @@ package org.audiveris.omr.run;
 import ij.process.ByteProcessor;
 
 import org.audiveris.omr.image.PixelSource;
-import static org.audiveris.omr.image.PixelSource.BACKGROUND;
 import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.math.PointsCollector;
 import org.audiveris.omr.moments.ARTMoments;
@@ -39,13 +38,13 @@ import org.audiveris.omr.util.Table;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
-import java.awt.image.BufferedImage;
+import myJava.awt.Color;
+import myJava.awt.Dimension;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
+import myJava.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;

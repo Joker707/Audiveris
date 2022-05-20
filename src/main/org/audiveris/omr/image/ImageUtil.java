@@ -26,10 +26,10 @@ import org.audiveris.omr.WellKnowns;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.ColorModel;
+import myJava.awt.image.BufferedImage;
+import myJava.awt.image.ColorModel;
 import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
+import myJava.awt.image.WritableRaster;
 import java.awt.image.renderable.ParameterBlock;
 import java.io.File;
 import java.io.IOException;

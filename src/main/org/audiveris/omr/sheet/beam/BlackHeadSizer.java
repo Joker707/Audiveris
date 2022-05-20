@@ -45,7 +45,7 @@ import org.audiveris.omr.util.Dumping;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

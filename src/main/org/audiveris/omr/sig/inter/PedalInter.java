@@ -30,8 +30,8 @@ import org.audiveris.omr.sig.relation.ChordPedalRelation;
 import org.audiveris.omr.sig.relation.Link;
 import org.audiveris.omr.sig.relation.Relation;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 import java.util.Collection;
 import java.util.Collections;
 

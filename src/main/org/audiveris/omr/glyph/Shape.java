@@ -29,7 +29,7 @@ import org.audiveris.omr.ui.symbol.Symbols;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
+import myJava.awt.Color;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

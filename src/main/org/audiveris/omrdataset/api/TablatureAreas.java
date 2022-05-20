@@ -26,7 +26,7 @@ import org.audiveris.omr.util.Jaxb.RectangleAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

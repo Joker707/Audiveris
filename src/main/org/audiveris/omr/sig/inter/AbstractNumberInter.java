@@ -28,7 +28,7 @@ import org.audiveris.omrdataset.api.OmrShape;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

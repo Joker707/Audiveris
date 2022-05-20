@@ -38,8 +38,8 @@ import org.audiveris.omr.ui.util.Panel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
+import myJava.awt.Rectangle;
+import myJava.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 import javax.swing.JComponent;

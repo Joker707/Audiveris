@@ -29,7 +29,7 @@ import org.audiveris.omr.sig.GradeImpacts;
 import org.audiveris.omr.sig.ui.InterEditor;
 import org.audiveris.omr.util.Version;
 
-import java.awt.geom.Line2D;
+import myJava.awt.geom.Line2D;
 import java.util.List;
 
 /**

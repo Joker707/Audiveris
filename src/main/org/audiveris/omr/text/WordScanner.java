@@ -26,7 +26,7 @@ import org.audiveris.omr.sig.inter.LyricItemInter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.List;
 
 /**

@@ -23,6 +23,7 @@ package org.audiveris.omr.lag;
 
 import ij.process.ByteProcessor;
 
+import myJava.awt.Shape;
 import org.audiveris.omr.math.Barycenter;
 import org.audiveris.omr.math.Line;
 import org.audiveris.omr.math.PointsCollector;
@@ -31,13 +32,13 @@ import org.audiveris.omr.run.Oriented;
 import org.audiveris.omr.run.Run;
 import org.audiveris.omr.util.Entity;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Point;
-import java.awt.Polygon;
-import java.awt.Rectangle;
-import java.awt.geom.PathIterator;
-import java.awt.geom.Point2D;
+import myJava.awt.Color;
+import myJava.awt.Graphics;
+import myJava.awt.Point;
+import myJava.awt.Polygon;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.PathIterator;
+import myJava.awt.geom.Point2D;
 import java.util.Comparator;
 import java.util.List;
 
@@ -414,7 +415,7 @@ public interface Section
      * @param shape the shape to intersect
      * @return true if intersection is not empty
      */
-    public boolean intersects (java.awt.Shape shape);
+    public boolean intersects (Shape shape);
 
     /**
      * Check whether this section intersects that other section.

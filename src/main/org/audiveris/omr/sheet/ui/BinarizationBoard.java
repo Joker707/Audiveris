@@ -44,7 +44,7 @@ import org.audiveris.omr.ui.util.Panel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>BinarizationBoard</code> is a board meant to display the

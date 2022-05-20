@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.util;
 
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 import java.lang.ref.WeakReference;
 
 /**

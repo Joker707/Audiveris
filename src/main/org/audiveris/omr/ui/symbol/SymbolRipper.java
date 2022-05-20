@@ -43,20 +43,20 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
+import myJava.awt.Color;
 import java.awt.Container;
-import java.awt.Dimension;
+import myJava.awt.Dimension;
 import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import myJava.awt.Graphics;
+import myJava.awt.Graphics2D;
 import java.awt.GraphicsEnvironment;
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.awt.RenderingHints;
 import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.font.TextLayout;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.BufferedImage;
+import myJava.awt.geom.Rectangle2D;
+import myJava.awt.image.BufferedImage;
 import java.util.Locale;
 
 import javax.swing.JFrame;

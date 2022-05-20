@@ -21,8 +21,11 @@
 // </editor-fold>
 package org.audiveris.omr.jai;
 
+import myJava.awt.image.ColorModel;
+import myJava.awt.image.DataBuffer;
+import myJava.awt.image.SampleModel;
+
 import java.awt.Transparency;
-import java.awt.image.*;
 import java.awt.image.renderable.ParameterBlock;
 import java.io.File;
 import java.util.Arrays;

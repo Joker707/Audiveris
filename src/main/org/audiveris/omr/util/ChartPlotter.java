@@ -32,8 +32,8 @@ import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
-import java.awt.Color;
-import java.awt.Point;
+import myJava.awt.Color;
+import myJava.awt.Point;
 
 import javax.swing.WindowConstants;
 

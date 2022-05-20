@@ -36,10 +36,10 @@ import org.audiveris.omr.sig.relation.Link;
 import org.audiveris.omr.util.HorizontalSide;
 import static org.audiveris.omr.util.HorizontalSide.LEFT;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;

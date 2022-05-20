@@ -27,10 +27,9 @@ import org.audiveris.omr.sheet.ui.StubsController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.event.ActionEvent;
+import myJava.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-import static javax.swing.Action.SHORT_DESCRIPTION;
 
 /**
  * Class <code>PluginAction</code> implements the concrete user action related to a

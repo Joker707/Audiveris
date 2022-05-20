@@ -28,10 +28,10 @@ import org.audiveris.omr.text.FontInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Dimension;
+import myJava.awt.Dimension;
 import java.awt.Font;
 import java.awt.font.GlyphVector;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Class <code>TextFont</code> is meant to simplify the use of text font for pieces of text

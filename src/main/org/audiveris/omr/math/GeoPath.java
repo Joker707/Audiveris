@@ -21,12 +21,11 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Path2D;
-import java.awt.geom.PathIterator;
-import static java.awt.geom.PathIterator.*;
-import java.awt.geom.Point2D;
+import myJava.awt.Shape;
+import myJava.awt.geom.AffineTransform;
+import myJava.awt.geom.Path2D;
+import myJava.awt.geom.PathIterator;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>GeoPath</code> is a Path2D.Double with some additions

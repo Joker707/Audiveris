@@ -26,7 +26,7 @@ import org.audiveris.omr.glyph.Shape;
 import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.sheet.SystemInfo;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

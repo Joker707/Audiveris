@@ -27,7 +27,7 @@ import static org.audiveris.omr.run.Orientation.HORIZONTAL;
 import org.audiveris.omr.sheet.Sheet;
 import org.audiveris.omr.util.Navigable;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.List;
 

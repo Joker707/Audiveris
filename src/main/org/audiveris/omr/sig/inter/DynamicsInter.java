@@ -39,8 +39,8 @@ import org.audiveris.omr.util.VerticalSide;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumMap;

@@ -30,7 +30,7 @@ import org.audiveris.omr.ui.selection.SelectionHint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.event.ActionEvent;
+import myJava.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 

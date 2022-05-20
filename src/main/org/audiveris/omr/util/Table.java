@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.util;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.Arrays;
 
 /**

@@ -21,9 +21,9 @@
 // </editor-fold>
 package org.audiveris.omr.sig.relation;
 
-import java.awt.Point;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -6,8 +6,8 @@
 package org.audiveris.omr.ui.treetable;
 
 import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
+import myJava.awt.Dimension;
+import myJava.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.util.EventObject;
 

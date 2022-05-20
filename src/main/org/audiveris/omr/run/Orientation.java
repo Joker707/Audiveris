@@ -24,9 +24,9 @@ package org.audiveris.omr.run;
 import org.audiveris.omr.math.BasicLine;
 import org.audiveris.omr.math.Line;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>Orientation</code> defines orientation as horizontal or vertical, and provides

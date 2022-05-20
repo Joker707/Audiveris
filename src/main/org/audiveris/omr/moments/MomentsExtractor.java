@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.moments;
 
-import java.awt.image.WritableRaster;
+import myJava.awt.image.WritableRaster;
 
 /**
  * Interface <code>MomentsExtractor</code> is a general definition for an extractor of

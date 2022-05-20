@@ -26,7 +26,7 @@ import org.audiveris.omr.math.PointsCollector;
 import org.audiveris.omr.run.Orientation;
 import org.audiveris.omr.sheet.Scale;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.Set;

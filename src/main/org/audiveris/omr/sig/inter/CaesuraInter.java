@@ -29,7 +29,7 @@ import org.audiveris.omr.sheet.SystemInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

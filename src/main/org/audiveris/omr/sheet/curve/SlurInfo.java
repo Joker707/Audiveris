@@ -24,9 +24,9 @@ package org.audiveris.omr.sheet.curve;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.geom.CubicCurve2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.geom.CubicCurve2D;
+import myJava.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.List;
 

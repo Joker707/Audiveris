@@ -24,13 +24,13 @@ package org.audiveris.omr.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.CubicCurve2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.Dimension;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.CubicCurve2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -356,7 +356,7 @@ public abstract class Jaxb
 
         /**
          * Class <code>CubicFacade</code> is a JAXB-compatible facade for predefined
-         * {@link java.awt.geom.CubicCurve2D.Double} class.
+         * {@link CubicCurve2D.Double} class.
          * <p>
          * All coordinates are coded with a maximum of 1 digit after the dot.
          *
@@ -715,7 +715,7 @@ public abstract class Jaxb
 
         /**
          * Class <code>Line2DFacade</code> is a JAXB-compatible facade for predefined
-         * {@link java.awt.geom.Line2D.Double} class.
+         * {@link Line2D.Double} class.
          */
         @XmlRootElement(name = "line2d")
         private static class Line2DFacade
@@ -871,7 +871,7 @@ public abstract class Jaxb
 
         /**
          * Class <code>PointFacade</code> is a JAXB-compatible facade for predefined
-         * {@link java.awt.Point} class.
+         * {@link Point} class.
          */
         @XmlRootElement(name = "point")
         private static class PointFacade
@@ -961,7 +961,7 @@ public abstract class Jaxb
 
         /**
          * Class <code>Rectangle2DFacade</code> is a JAXB-compatible facade for predefined
-         * {@link java.awt.geom.Rectangle2D} class.
+         * {@link Rectangle2D} class.
          * <p>
          * All values are coded with a maximum of 3 digits after the dot.
          */
@@ -1059,7 +1059,7 @@ public abstract class Jaxb
 
         /**
          * Class <code>RectangleFacade</code> is a JAXB-compatible facade for predefined
-         * {@link java.awt.Rectangle} class.
+         * {@link Rectangle} class.
          */
         @XmlRootElement(name = "rectangle")
         private static class RectangleFacade
@@ -1166,7 +1166,7 @@ public abstract class Jaxb
     //---------------//
     /**
      * Class <code>Point2DFacade</code> is a JAXB-compatible facade for predefined
-     * {@link java.awt.geom.Point2D.Double} class.
+     * {@link Point2D.Double} class.
      * <p>
      * All coordinates are coded with a maximum of 1 digit after the dot.
      */

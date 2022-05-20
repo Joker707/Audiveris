@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.ui.symbol;
 
-import java.awt.Point;
-import java.awt.image.BufferedImage;
+import myJava.awt.Point;
+import myJava.awt.image.BufferedImage;
 
 /**
  * Class <code>SymbolImage</code> is a {@link BufferedImage} with the ability to define a
@@ -51,7 +51,7 @@ public class SymbolImage
                         int height,
                         Point refPoint)
     {
-        super(width, height, BufferedImage.TYPE_INT_ARGB);
+        super(width, height, BufferedImage.bufferedImage.TYPE_INT_ARGB);
         this.refPoint = refPoint;
     }
 

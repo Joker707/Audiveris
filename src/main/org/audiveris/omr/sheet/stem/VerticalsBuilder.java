@@ -47,8 +47,8 @@ import org.audiveris.omr.ui.selection.EntityService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

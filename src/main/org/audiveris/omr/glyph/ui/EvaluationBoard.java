@@ -51,9 +51,9 @@ import org.audiveris.omr.util.Navigable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import myJava.awt.Color;
+import myJava.awt.event.ActionEvent;
+import myJava.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;

@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.util;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

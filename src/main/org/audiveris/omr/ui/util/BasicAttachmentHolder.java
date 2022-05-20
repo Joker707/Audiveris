@@ -27,13 +27,13 @@ import org.audiveris.omr.ui.Colors;
 import org.audiveris.omr.ui.ViewParameters;
 import org.audiveris.omr.ui.symbol.OmrFont;
 
-import java.awt.Color;
+import myJava.awt.Color;
 import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Shape;
+import myJava.awt.Graphics2D;
+import myJava.awt.Shape;
 import java.awt.font.TextLayout;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.AffineTransform;
+import myJava.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -55,7 +55,7 @@ public class BasicAttachmentHolder
 
     //~ Instance fields ----------------------------------------------------------------------------
     /** Map for attachments. */
-    protected Map<String, java.awt.Shape> attachments = new HashMap<>();
+    protected Map<String, Shape> attachments = new HashMap<>();
 
     //~ Methods ------------------------------------------------------------------------------------
     //---------------//
@@ -74,7 +74,7 @@ public class BasicAttachmentHolder
     // getAttachments //
     //----------------//
     @Override
-    public Map<String, java.awt.Shape> getAttachments ()
+    public Map<String, Shape> getAttachments ()
     {
         return Collections.unmodifiableMap(attachments);
     }

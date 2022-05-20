@@ -25,7 +25,7 @@ import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.glyph.Shape;
 import org.audiveris.omr.sig.GradeImpacts;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>AbstractDirectionInter</code> represents any direction.

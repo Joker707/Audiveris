@@ -23,7 +23,7 @@ package org.audiveris.omr.sheet.ui;
 
 import org.audiveris.omr.sheet.Sheet;
 
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 
 /**
  * Interface <code>SimpleSheetPainter</code> is a simple painter working on a sheet.

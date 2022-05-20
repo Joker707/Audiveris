@@ -96,9 +96,11 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.2'
     annotationProcessor 'org.projectlombok:lombok:1.18.2'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.2'
+    implementation 'com.google.android:android:4.1.1.4'
 }
 
 dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
     compile(
         [group: 'org.kohsuke', name: 'github-api', version: '1.133'],
         [group: 'args4j', name: 'args4j', version: '2.33'],

@@ -25,10 +25,10 @@ import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
 import java.awt.Composite;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
+import myJava.awt.Graphics2D;
+import myJava.awt.Rectangle;
 import java.awt.font.TextLayout;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>StemSymbol</code> implements a stem symbol.

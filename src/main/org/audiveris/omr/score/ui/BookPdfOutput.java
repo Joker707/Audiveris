@@ -34,8 +34,8 @@ import org.audiveris.omr.step.OmrStep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Graphics2D;
+import myJava.awt.Color;
+import myJava.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.io.File;
 import java.io.FileOutputStream;

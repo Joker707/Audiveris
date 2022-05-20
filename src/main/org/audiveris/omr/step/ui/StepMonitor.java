@@ -29,7 +29,7 @@ import org.audiveris.omr.ui.Colors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Graphics;
+import myJava.awt.Graphics;
 
 import javax.swing.JProgressBar;
 import javax.swing.SwingUtilities;

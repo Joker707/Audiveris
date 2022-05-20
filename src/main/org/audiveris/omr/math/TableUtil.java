@@ -26,8 +26,8 @@ import ij.process.ByteProcessor;
 import org.audiveris.omr.image.ImageUtil;
 import org.audiveris.omr.util.Table;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.WritableRaster;
+import myJava.awt.image.BufferedImage;
+import myJava.awt.image.WritableRaster;
 
 /**
  * Class <code>TableUtil</code> gathers utilities to dump basic table content.

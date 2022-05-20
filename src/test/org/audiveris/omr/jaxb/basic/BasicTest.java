@@ -25,7 +25,7 @@ import org.audiveris.omr.util.BaseTestCase;
 import org.audiveris.omr.util.Dumping;
 import org.audiveris.omr.util.Jaxb;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import java.io.*;
 import java.nio.file.Paths;
 import java.util.ArrayList;

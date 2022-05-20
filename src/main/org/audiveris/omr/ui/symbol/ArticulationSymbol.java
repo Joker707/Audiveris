@@ -24,13 +24,12 @@ package org.audiveris.omr.ui.symbol;
 import org.audiveris.omr.glyph.Shape;
 import org.audiveris.omr.math.PointUtil;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
-import static org.audiveris.omr.ui.symbol.ShapeSymbol.decoComposite;
 
 import java.awt.Composite;
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Class <code>ArticulationSymbol</code> implements an articulation symbol.

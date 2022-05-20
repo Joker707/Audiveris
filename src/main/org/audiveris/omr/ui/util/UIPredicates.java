@@ -22,7 +22,7 @@
 package org.audiveris.omr.ui.util;
 
 import org.audiveris.omr.WellKnowns;
-import static java.awt.event.InputEvent.*;
+
 import java.awt.event.MouseEvent;
 
 import javax.swing.SwingUtilities;

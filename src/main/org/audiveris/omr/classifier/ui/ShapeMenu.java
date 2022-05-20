@@ -30,8 +30,8 @@ import org.audiveris.omr.ui.util.SeparableMenu;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import myJava.awt.event.ActionEvent;
+import myJava.awt.event.ActionListener;
 import java.util.List;
 
 import javax.swing.JMenu;

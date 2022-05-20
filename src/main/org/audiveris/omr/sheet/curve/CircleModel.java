@@ -23,9 +23,9 @@ package org.audiveris.omr.sheet.curve;
 
 import org.audiveris.omr.math.Circle;
 
-import java.awt.Rectangle;
-import java.awt.geom.CubicCurve2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.CubicCurve2D;
+import myJava.awt.geom.Point2D;
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
 import java.util.Collection;

@@ -37,12 +37,12 @@ import org.audiveris.omr.ui.symbol.Symbols;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 import java.awt.font.TextLayout;
-import java.awt.geom.Area;
-import java.awt.geom.Line2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Rectangle2D;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;

@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.Component;
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 
 import javax.swing.JMenu;
 import javax.swing.JPopupMenu;

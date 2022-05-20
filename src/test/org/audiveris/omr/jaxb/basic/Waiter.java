@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.jaxb.basic;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import java.io.File;
 import java.util.List;
 

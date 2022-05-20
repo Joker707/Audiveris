@@ -32,20 +32,20 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import java.awt.Color;
+import myJava.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.FileDialog;
 import java.awt.Font;
 import java.awt.Frame;
 import static java.awt.Frame.ICONIFIED;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Stroke;
+import myJava.awt.Graphics;
+import myJava.awt.Graphics2D;
+import awt.Stroke;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
-import java.awt.geom.AffineTransform;
+import myJava.awt.geom.AffineTransform;
 import java.io.File;
 import java.nio.file.Path;
 import java.util.Collection;
@@ -580,7 +580,7 @@ public abstract class UIUtil
     // setAbsoluteDashedStroke //
     //-------------------------//
     /**
-     * Similar to {@link #setAbsoluteStroke(java.awt.Graphics, float)} but for a dashed
+     * Similar to {@link #setAbsoluteStroke(Graphics, float)} but for a dashed
      * stroke.
      *
      * @param g     the current graphics context

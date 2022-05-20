@@ -38,9 +38,9 @@ import org.audiveris.omr.util.Navigable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Stroke;
+import myJava.awt.Color;
+import myJava.awt.Graphics2D;
+import awt.Stroke;
 import java.util.ArrayList;
 import java.util.List;
 

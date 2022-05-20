@@ -59,13 +59,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import static java.awt.BasicStroke.*;
-import java.awt.Color;
-import java.awt.Graphics2D;
+
+import myJava.awt.Color;
+import myJava.awt.Graphics2D;
 import java.awt.RenderingHints;
-import java.awt.Stroke;
-import java.awt.geom.Area;
-import java.awt.geom.Point2D;
+import awt.Stroke;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Point2D;
 import java.util.List;
 
 /**

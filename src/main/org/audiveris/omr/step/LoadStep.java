@@ -32,7 +32,7 @@ import org.audiveris.omr.util.Memory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 
 /**
  * Class <code>LoadStep</code> loads the image for a sheet, from a provided image file.

@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.moments;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>AbstractExtractor</code> provides the basis for moments extraction.

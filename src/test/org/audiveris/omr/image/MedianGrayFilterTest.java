@@ -24,9 +24,9 @@ package org.audiveris.omr.image;
 import static org.junit.Assert.fail;
 import org.junit.Test;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 import java.awt.image.Raster;
-import java.awt.image.WritableRaster;
+import myJava.awt.image.WritableRaster;
 
 /**
  * Class <code>MedianGrayFilterTest</code>

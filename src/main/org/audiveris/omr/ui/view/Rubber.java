@@ -32,18 +32,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import java.awt.Color;
+import myJava.awt.Color;
 import java.awt.Container;
 import java.awt.Cursor;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.Stroke;
+import myJava.awt.Graphics;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import awt.Stroke;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
-import java.awt.geom.Line2D;
+import myJava.awt.geom.Line2D;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.swing.JComponent;

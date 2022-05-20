@@ -5,10 +5,9 @@
 //------------------------------------------------------------------------------------------------//
 package org.audiveris.omr.ui.util;
 
+import myJava.awt.Dimension;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.awt.*;
 
 import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;

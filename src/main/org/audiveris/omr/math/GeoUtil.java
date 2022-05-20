@@ -21,11 +21,11 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Class <code>GeoUtil</code> gathers simple utilities related to geometry.

@@ -22,8 +22,8 @@
 package org.audiveris.omr.ui.dnd;
 
 import java.awt.Component;
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 
 import javax.swing.SwingUtilities;
 
@@ -58,8 +58,8 @@ public class ScreenPoint
     public ScreenPoint (Component component,
                         Point localPoint)
     {
-        this(localPoint.x, localPoint.y);
-        SwingUtilities.convertPointToScreen(this, component);
+        this(localPoint.point.x, localPoint.point.y);
+        SwingUtilities.convertPointToScreen(point, component);
     }
 
     //~ Methods ------------------------------------------------------------------------------------
@@ -74,8 +74,8 @@ public class ScreenPoint
      */
     public Point getLocalPoint (Component component)
     {
-        Point localPoint = new Point(x, y);
-        SwingUtilities.convertPointFromScreen(localPoint, component);
+        Point localPoint = new Point(point.x, point.y);
+        SwingUtilities.convertPointFromScreen(localPoint.point, component);
 
         return localPoint;
     }
@@ -93,6 +93,6 @@ public class ScreenPoint
     {
         Rectangle bounds = new Rectangle(0, 0, component.getWidth(), component.getHeight());
 
-        return bounds.contains(getLocalPoint(component));
+        return bounds.contains(getLocalPoint(component).point);
     }
 }

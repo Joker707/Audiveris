@@ -35,8 +35,8 @@ import org.bytedeco.javacpp.tesseract.TessBaseAPI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.image.BufferedImage;
+import myJava.awt.Point;
+import myJava.awt.image.BufferedImage;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;

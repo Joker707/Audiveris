@@ -25,8 +25,8 @@ import org.audiveris.omr.glyph.Shape;
 import org.audiveris.omr.math.PointUtil;
 import static org.audiveris.omr.ui.symbol.Alignment.TOP_LEFT;
 
-import java.awt.Graphics2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Graphics2D;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>ArpeggiatosSymbol</code> displays a column of several arpeggiato.

@@ -28,7 +28,7 @@ import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.run.RunTable;
 import org.audiveris.omr.util.ByteUtil;
 
-import java.awt.Point;
+import myJava.awt.Point;
 
 /**
  * Class <code>ScaledBuffer</code> produces a rectangular buffer, with size normalized by

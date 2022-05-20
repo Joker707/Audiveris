@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sig.ui;
 
-import java.awt.Color;
+import myJava.awt.Color;
 import org.audiveris.omr.constant.ConstantSet;
 import org.audiveris.omr.math.GeoUtil;
 import org.audiveris.omr.sheet.Scale;
@@ -55,10 +55,10 @@ import org.audiveris.omr.util.Entities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.event.ActionEvent;
+import myJava.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Collection;

@@ -21,22 +21,19 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import static org.audiveris.omr.math.GeoPath.countOf;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.geom.CubicCurve2D;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.PathIterator;
-import static java.awt.geom.PathIterator.*;
-import java.awt.geom.Point2D;
-import java.awt.geom.QuadCurve2D;
+import myJava.awt.Color;
+import myJava.awt.Graphics2D;
+import myJava.awt.Rectangle;
+import myJava.awt.Shape;
+import myJava.awt.geom.CubicCurve2D;
+import myJava.awt.geom.Ellipse2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.PathIterator;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.QuadCurve2D;
 import java.util.Collection;
 import java.util.Objects;
 

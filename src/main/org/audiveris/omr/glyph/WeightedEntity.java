@@ -25,8 +25,8 @@ import org.audiveris.omr.run.Orientation;
 import org.audiveris.omr.ui.util.AttachmentHolder;
 import org.audiveris.omr.util.Entity;
 
-import java.awt.Point;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.geom.Point2D;
 import java.util.EnumSet;
 
 /**

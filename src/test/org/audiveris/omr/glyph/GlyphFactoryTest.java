@@ -12,7 +12,7 @@ import org.audiveris.omr.run.RunTable;
 
 import org.junit.Test;
 
-import java.awt.Dimension;
+import myJava.awt.Dimension;
 
 /**
  *

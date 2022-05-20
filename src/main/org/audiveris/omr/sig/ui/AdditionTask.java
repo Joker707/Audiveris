@@ -25,7 +25,7 @@ import org.audiveris.omr.sig.SIGraph;
 import org.audiveris.omr.sig.inter.Inter;
 import org.audiveris.omr.sig.relation.Link;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.Collection;
 
 /**

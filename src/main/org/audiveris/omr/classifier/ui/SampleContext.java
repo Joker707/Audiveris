@@ -43,11 +43,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Color;
+import myJava.awt.Dimension;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>SampleContext</code> displays a sample within the context image of its

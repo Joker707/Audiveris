@@ -30,7 +30,7 @@ import org.audiveris.omr.ui.PixelCount;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Graphics;
+import myJava.awt.Graphics;
 import java.awt.Insets;
 
 import javax.swing.JPanel;

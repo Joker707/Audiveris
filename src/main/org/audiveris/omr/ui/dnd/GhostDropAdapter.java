@@ -23,7 +23,7 @@ package org.audiveris.omr.ui.dnd;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 import java.util.LinkedHashSet;
 import java.util.Set;
 

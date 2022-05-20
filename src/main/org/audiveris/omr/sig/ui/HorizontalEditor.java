@@ -24,8 +24,8 @@ package org.audiveris.omr.sig.ui;
 import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.sig.inter.Inter;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 
 /**
  * Class <code>HorizontalEditor</code> provides just one handle to globally move the inter

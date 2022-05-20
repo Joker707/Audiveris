@@ -35,7 +35,7 @@ import org.audiveris.omr.util.StopWatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import static java.lang.Boolean.TRUE;
 import java.util.ArrayList;
 import java.util.Collection;

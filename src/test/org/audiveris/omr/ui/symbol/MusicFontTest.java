@@ -29,11 +29,11 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 import org.junit.Test;
 
-import java.awt.Color;
+import myJava.awt.Color;
 import java.awt.Font;
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Rectangle2D;
 import java.io.File;
 import java.io.FileOutputStream;
 

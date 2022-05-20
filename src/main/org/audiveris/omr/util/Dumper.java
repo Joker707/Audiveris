@@ -27,7 +27,7 @@ import org.audiveris.omr.math.LineUtil;
 import org.audiveris.omr.ui.util.UIUtil;
 import org.audiveris.omr.util.Dumping.Relevance;
 
-import java.awt.geom.Line2D;
+import myJava.awt.geom.Line2D;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.Collection;

@@ -26,7 +26,7 @@ import org.audiveris.omr.util.Jaxb;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.geom.Rectangle2D;
+import myJava.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

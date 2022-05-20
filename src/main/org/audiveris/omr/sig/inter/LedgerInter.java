@@ -33,7 +33,6 @@ import org.audiveris.omr.sheet.Sheet;
 import org.audiveris.omr.sheet.Versions;
 import org.audiveris.omr.sig.GradeImpacts;
 import org.audiveris.omr.sig.ui.InterEditor;
-import org.audiveris.omr.sig.ui.InterEditor.Handle;
 import org.audiveris.omr.sig.ui.InterUIModel;
 import org.audiveris.omr.ui.symbol.Alignment;
 import org.audiveris.omr.ui.symbol.LedgerSymbol;
@@ -42,10 +41,10 @@ import org.audiveris.omr.ui.symbol.ShapeSymbol;
 import org.audiveris.omr.util.Jaxb;
 import org.audiveris.omr.util.Version;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 import java.util.List;
 
 import javax.xml.bind.Unmarshaller;

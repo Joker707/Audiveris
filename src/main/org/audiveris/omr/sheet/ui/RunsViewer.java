@@ -30,7 +30,7 @@ import org.audiveris.omr.ui.BoardsPane;
 import org.audiveris.omr.ui.view.RubberPanel;
 import org.audiveris.omr.ui.view.ScrollView;
 
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 
 /**
  * Class <code>RunsViewer</code> handles the display of instance(s) of

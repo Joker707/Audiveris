@@ -21,13 +21,14 @@
 // </editor-fold>
 package org.audiveris.omr.glyph;
 
+import myJava.awt.Shape;
 import org.audiveris.omr.run.Orientation;
 import static org.audiveris.omr.run.Orientation.HORIZONTAL;
 import org.audiveris.omr.ui.util.AttachmentHolder;
 import org.audiveris.omr.ui.util.BasicAttachmentHolder;
 import org.audiveris.omr.util.AbstractEntity;
 
-import java.awt.Graphics2D;
+import myJava.awt.Graphics2D;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Map;
@@ -82,7 +83,7 @@ public abstract class AbstractWeightedEntity
     //~ Methods ------------------------------------------------------------------------------------
     @Override
     public void addAttachment (String id,
-                               java.awt.Shape attachment)
+                               Shape attachment)
     {
         if (attachment != null) {
             if (attachments == null) {
@@ -116,7 +117,7 @@ public abstract class AbstractWeightedEntity
     }
 
     @Override
-    public Map<String, java.awt.Shape> getAttachments ()
+    public Map<String, Shape> getAttachments ()
     {
         if (attachments != null) {
             return attachments.getAttachments();

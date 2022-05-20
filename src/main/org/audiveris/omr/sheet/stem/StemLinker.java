@@ -24,7 +24,7 @@ package org.audiveris.omr.sheet.stem;
 import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.sig.inter.Inter;
 
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 import java.util.Collection;
 
 /**

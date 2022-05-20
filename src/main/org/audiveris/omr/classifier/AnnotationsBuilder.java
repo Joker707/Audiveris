@@ -71,8 +71,8 @@ import org.audiveris.omrdataset.api.SymbolInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Dimension;
-import java.awt.Rectangle;
+import myJava.awt.Dimension;
+import myJava.awt.Rectangle;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;

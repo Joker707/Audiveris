@@ -23,8 +23,8 @@ package org.audiveris.omr.sheet.ui;
 
 import org.audiveris.omr.ui.view.RubberPanel;
 
-import java.awt.Dimension;
-import java.awt.Graphics2D;
+import myJava.awt.Dimension;
+import myJava.awt.Graphics2D;
 import java.awt.image.RenderedImage;
 
 /**

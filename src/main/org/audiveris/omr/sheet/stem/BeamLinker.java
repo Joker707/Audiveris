@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.stem;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.glyph.GlyphFactory;
 import org.audiveris.omr.glyph.GlyphGroup;
@@ -39,11 +39,9 @@ import org.audiveris.omr.sheet.Profiles;
 import org.audiveris.omr.sheet.Scale;
 import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.sheet.SystemInfo;
-import org.audiveris.omr.sheet.stem.BeamLinker.BLinker;
 import org.audiveris.omr.sheet.stem.BeamLinker.BLinker.VLinker;
 import org.audiveris.omr.sheet.stem.HeadLinker.SLinker;
 import org.audiveris.omr.sheet.stem.HeadLinker.SLinker.CLinker;
-import static org.audiveris.omr.sheet.stem.StemHalfLinker.updateStemLine;
 import org.audiveris.omr.sheet.stem.StemItem.GapItem;
 import org.audiveris.omr.sheet.stem.StemItem.LinkerItem;
 import org.audiveris.omr.sig.SIGraph;
@@ -71,12 +69,12 @@ import static org.audiveris.omr.util.VerticalSide.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Area;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.Point2D;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Area;
+import myJava.awt.geom.Ellipse2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Path2D;
+import myJava.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

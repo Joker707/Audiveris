@@ -31,8 +31,8 @@ import org.audiveris.omr.sig.inter.AbstractBeamInter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>StemItem</code> is an abstract class to formalize any item used when trying to

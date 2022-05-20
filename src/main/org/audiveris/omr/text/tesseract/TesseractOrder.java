@@ -35,10 +35,10 @@ import static org.bytedeco.javacpp.tesseract.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
-import java.awt.geom.Line2D;
-import java.awt.geom.Rectangle2D;
-import java.awt.image.BufferedImage;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Rectangle2D;
+import myJava.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

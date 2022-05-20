@@ -26,10 +26,10 @@ import org.audiveris.omr.util.Jaxb;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Line2D;
+import myJava.awt.geom.AffineTransform;
+import myJava.awt.geom.Line2D;
 import java.awt.geom.NoninvertibleTransformException;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Point2D;
 import java.util.Objects;
 
 import javax.xml.bind.Unmarshaller;

@@ -29,8 +29,8 @@ import org.audiveris.omr.run.RunTable.RunSequence;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import java.awt.Dimension;
-import java.awt.Point;
+import myJava.awt.Dimension;
+import myJava.awt.Point;
 import java.util.function.Predicate;
 
 /**

@@ -26,11 +26,11 @@ import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.sig.inter.EndingInter;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
+import myJava.awt.geom.Rectangle2D;
 
 /**
  * Class <code>EndingSymbol</code> implements an ending symbol

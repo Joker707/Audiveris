@@ -51,9 +51,9 @@ import org.jgrapht.Graph;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Color;
-import java.awt.Point;
-import java.awt.geom.Line2D;
+import myJava.awt.Color;
+import myJava.awt.Point;
+import myJava.awt.geom.Line2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

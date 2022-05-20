@@ -44,7 +44,7 @@ import org.jfree.data.xy.XYSeries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
+import myJava.awt.Point;
 import java.util.ArrayList;
 
 /**

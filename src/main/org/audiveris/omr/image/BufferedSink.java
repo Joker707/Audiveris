@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.image;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.WritableRaster;
+import myJava.awt.image.BufferedImage;
+import myJava.awt.image.WritableRaster;
 
 /**
  * Class <code>BufferedSink</code> wraps a BufferedImage as a PixelSink.

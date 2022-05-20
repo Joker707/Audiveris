@@ -25,10 +25,9 @@ import org.audiveris.omr.sig.SIGraph;
 import org.audiveris.omr.sig.inter.Inter;
 import org.audiveris.omr.sig.relation.Relation;
 
-import java.awt.event.ActionEvent;
+import myJava.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-import static javax.swing.Action.SHORT_DESCRIPTION;
 
 /**
  * Class <code>RelationAction</code> displays a relation and selects the other interpretation

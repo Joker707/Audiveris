@@ -37,9 +37,9 @@ import org.audiveris.omr.ui.symbol.ShapeSymbol;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;

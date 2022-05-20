@@ -42,8 +42,8 @@ import org.jgrapht.event.GraphEdgeChangeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.geom.Line2D;
-import java.awt.geom.Point2D;
+import myJava.awt.geom.Line2D;
+import myJava.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;

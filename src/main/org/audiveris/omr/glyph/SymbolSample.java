@@ -33,8 +33,8 @@ import org.audiveris.omr.ui.symbol.ShapeSymbol;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
+import myJava.awt.image.BufferedImage;
+import myJava.awt.image.DataBuffer;
 
 /**
  * Class <code>SymbolSample</code> is an artificial symbol, built from a font icon.

@@ -24,8 +24,8 @@ package org.audiveris.omr.ui.dnd;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
 
 import javax.swing.JComponent;
 

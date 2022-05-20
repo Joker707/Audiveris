@@ -25,7 +25,7 @@ import org.audiveris.omr.sheet.SystemInfo;
 import org.audiveris.omr.ui.symbol.SymbolIcon;
 import org.audiveris.omr.util.Navigable;
 
-import java.awt.Point;
+import myJava.awt.Point;
 
 /**
  * Class <code>Mark</code> encapsulates information to be made visible to the

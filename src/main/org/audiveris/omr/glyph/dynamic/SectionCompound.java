@@ -37,9 +37,9 @@ import org.audiveris.omr.run.RunTable;
 import org.audiveris.omr.run.RunTableFactory;
 import org.audiveris.omr.util.ByteUtil;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 import java.util.Collections;
 import java.util.Objects;
 import java.util.SortedSet;

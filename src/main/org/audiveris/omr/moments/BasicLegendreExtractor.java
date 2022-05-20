@@ -24,7 +24,7 @@ package org.audiveris.omr.moments;
 import org.audiveris.omr.math.Polynomial;
 import static org.audiveris.omr.moments.LegendreMoments.*;
 
-import java.awt.image.WritableRaster;
+import myJava.awt.image.WritableRaster;
 
 /**
  * Class <code>BasicLegendreExtractor</code> implements extraction of Legendre moments.

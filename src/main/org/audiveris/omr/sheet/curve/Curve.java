@@ -21,6 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.curve;
 
+import myJava.awt.Shape;
 import org.audiveris.omr.glyph.Glyph;
 import static org.audiveris.omr.run.Orientation.VERTICAL;
 import org.audiveris.omr.run.Run;
@@ -33,10 +34,10 @@ import org.audiveris.omr.ui.util.BasicAttachmentHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Area;
+import myJava.awt.Graphics2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Area;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -120,7 +121,7 @@ public abstract class Curve
     //---------------//
     @Override
     public void addAttachment (String id,
-                               java.awt.Shape attachment)
+                               Shape attachment)
     {
         Objects.requireNonNull(attachment, "Adding a null attachment");
 
@@ -233,7 +234,7 @@ public abstract class Curve
     // getAttachments //
     //----------------//
     @Override
-    public Map<String, java.awt.Shape> getAttachments ()
+    public Map<String, Shape> getAttachments ()
     {
         if (attachments != null) {
             return attachments.getAttachments();

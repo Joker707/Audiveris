@@ -31,15 +31,15 @@ import org.audiveris.omr.sheet.Scale;
 import org.audiveris.omr.sheet.Sheet;
 import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.sheet.SystemInfo;
-import static org.audiveris.omr.text.TextRole.*;
+
 import static org.audiveris.omr.util.HorizontalSide.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.awt.geom.Point2D;
+import myJava.awt.Point;
+import myJava.awt.Rectangle;
+import myJava.awt.geom.Point2D;
 
 /**
  * Class <code>TextRole</code> describes the role of a piece of text (typically a sentence).

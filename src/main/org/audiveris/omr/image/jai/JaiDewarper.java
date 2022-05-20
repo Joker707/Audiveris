@@ -24,7 +24,7 @@ package org.audiveris.omr.image.jai;
 import org.audiveris.omr.image.ImageUtil;
 import static org.audiveris.omr.image.ImageUtil.invert;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 import java.awt.image.renderable.ParameterBlock;
 
 import javax.media.jai.InterpolationBilinear;

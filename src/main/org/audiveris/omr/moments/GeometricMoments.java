@@ -24,7 +24,7 @@ package org.audiveris.omr.moments;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Point;
+import myJava.awt.Point;
 
 /**
  * Class <code>GeometricMoments</code> encapsulates the set of all geometric moments that

@@ -24,7 +24,7 @@ package org.audiveris.omr.image.jai;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 import java.io.File;
 import java.util.SortedMap;
 import java.util.TreeMap;

@@ -6,7 +6,7 @@ package org.audiveris.omr.jai;
 
 import org.audiveris.omr.util.StopWatch;
 
-import java.awt.image.BufferedImage;
+import myJava.awt.image.BufferedImage;
 import java.io.File;
 import java.util.Iterator;
 

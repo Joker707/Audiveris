@@ -25,7 +25,6 @@ import org.audiveris.omr.classifier.Evaluation;
 import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.glyph.Grades;
 import org.audiveris.omr.glyph.Shape;
-import static org.audiveris.omr.glyph.Shape.*;
 import org.audiveris.omr.sheet.ProcessingSwitches;
 import org.audiveris.omr.sheet.ProcessingSwitch;
 import org.audiveris.omr.sheet.Sheet;
@@ -90,7 +89,7 @@ import org.audiveris.omr.util.Navigable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.awt.Rectangle;
+import myJava.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
