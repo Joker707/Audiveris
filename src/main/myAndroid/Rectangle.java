@@ -3,13 +3,13 @@ package myAndroid;
 
 
 
-import myAndroid.geom.Dimension;
-import myAndroid.geom.Rectangle2D;
+import myAndroid.awt.Dimension;
+import myAndroid.awt.Rectangle2D;
 
 import java.beans.Transient;
 
 public class Rectangle extends Rectangle2D
-        implements Shape, java.io.Serializable {
+        implements java.Rectangle, Shape, java.io.Serializable {
 
 
     public int x;

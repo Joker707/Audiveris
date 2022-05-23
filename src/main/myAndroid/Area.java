@@ -1,10 +1,10 @@
 package myAndroid;
 
 
-import myAndroid.geom.AreaOp;
-import myAndroid.geom.Curve;
+import myAndroid.awt.AreaOp;
+import myAndroid.awt.Curve;
+import myAndroid.awt.Rectangle2D;
 
-import java.awt.geom.Rectangle2D;
 import java.util.Enumeration;
 import java.util.Vector;
 
@@ -67,9 +67,9 @@ public class Area {
         return (cachedBounds = r);
     }
 
-    public Object clone() {
-        return new Area(this);
-    }
+//    public Object clone() {
+//        return new Area(this);
+//    }
 
 
     public boolean contains(double x, double y) {
