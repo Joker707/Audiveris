@@ -1,6 +1,6 @@
 package myJava.awt.image;
 
-public class DataBuffer {
+public class DataBuffer extends java.awt.image.DataBuffer {
     private final MyDataBuffer dataBuffer = new MyDataBuffer();
 
     private class MyDataBuffer extends DataBuffer {
