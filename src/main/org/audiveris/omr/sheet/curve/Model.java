@@ -21,9 +21,9 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.curve;
 
-import myJava.awt.Rectangle;
-import myJava.awt.Shape;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.Shape;
+import java.awt.geom.Point2D;
 import java.util.Collection;
 
 /**

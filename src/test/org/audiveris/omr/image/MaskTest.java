@@ -24,8 +24,8 @@ package org.audiveris.omr.image;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Path2D;
+import java.awt.geom.Area;
+import java.awt.geom.Path2D;
 
 /**
  *

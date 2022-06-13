@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.ui.symbol;
 
-import myJava.awt.Point;
-import myJava.awt.image.BufferedImage;
+import java.awt.Point;
+import java.awt.image.BufferedImage;
 
 /**
  * Class <code>SymbolImage</code> is a {@link BufferedImage} with the ability to define a

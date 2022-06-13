@@ -22,9 +22,9 @@
 package org.audiveris.omr.ui.dnd;
 
 import java.awt.Component;
-import myJava.awt.Graphics;
+import java.awt.Graphics;
 import java.awt.event.MouseEvent;
-import myJava.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 
 /**
  * Class <code>GhostComponentAdapter</code> is a {@link GhostDropAdapter} whose image is

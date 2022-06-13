@@ -26,7 +26,7 @@ import org.audiveris.omr.sheet.Picture.ImageKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 import java.io.InputStream;
 import java.io.OutputStream;
 

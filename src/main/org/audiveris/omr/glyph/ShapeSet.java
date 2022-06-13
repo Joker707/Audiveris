@@ -32,8 +32,8 @@ import org.audiveris.omr.ui.Colors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
-import myJava.awt.event.ActionListener;
+import java.awt.Color;
+import java.awt.event.ActionListener;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -24,7 +24,7 @@ package org.audiveris.omr.ui.symbol;
 import org.audiveris.omr.glyph.Shape;
 
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
+import java.awt.geom.AffineTransform;
 
 /**
  * Class <code>ResizedSymbol</code> is a {@link ShapeSymbol} with a ratio different from 1.

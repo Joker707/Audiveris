@@ -26,9 +26,9 @@ import static org.audiveris.omr.image.ChamferDistance.VALUE_UNKNOWN;
 import org.audiveris.omr.ui.Colors;
 import org.audiveris.omr.util.Table;
 
-import myJava.awt.Color;
-import myJava.awt.Rectangle;
-import myJava.awt.image.BufferedImage;
+import java.awt.Color;
+import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import java.util.Arrays;
 

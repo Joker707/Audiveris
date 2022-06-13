@@ -526,11 +526,11 @@ public abstract class Constant<E>
     // Color //
     //-------//
     /**
-     * A subclass of Constant, meant to store a {@link myJava.awt.Color} value.
+     * A subclass of Constant, meant to store a {@link java.awt.Color} value.
      * They have a disk repository which is separate from the other constants.
      */
     public static class Color
-            extends Constant<myJava.awt.Color>
+            extends Constant<java.awt.Color>
     {
 
         /**
@@ -551,13 +551,13 @@ public abstract class Constant<E>
         }
 
         @Override
-        public void setValue (myJava.awt.Color val)
+        public void setValue (java.awt.Color val)
         {
             setTuple(encodeColor(val), val);
         }
 
         @Override
-        protected myJava.awt.Color decode (java.lang.String str)
+        protected java.awt.Color decode (java.lang.String str)
         {
             return decodeColor(str);
         }
@@ -571,9 +571,9 @@ public abstract class Constant<E>
          * @param str input string
          * @return the color object
          */
-        public static myJava.awt.Color decodeColor (java.lang.String str)
+        public static java.awt.Color decodeColor (java.lang.String str)
         {
-            return myJava.awt.Color.decode(str);
+            return java.awt.Color.decode(str);
         }
 
         //-------------//
@@ -585,7 +585,7 @@ public abstract class Constant<E>
          * @param color Color object to encode
          * @return color string
          */
-        public static java.lang.String encodeColor (myJava.awt.Color color)
+        public static java.lang.String encodeColor (java.awt.Color color)
         {
             return java.lang.String.format(
                     "#%02x%02x%02x",

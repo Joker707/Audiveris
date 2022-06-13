@@ -27,13 +27,13 @@ import org.audiveris.omr.ui.Colors;
 import org.audiveris.omr.ui.ViewParameters;
 import org.audiveris.omr.ui.symbol.OmrFont;
 
-import myJava.awt.Color;
+import java.awt.Color;
 import java.awt.Font;
-import myJava.awt.Graphics2D;
-import myJava.awt.Shape;
+import java.awt.Graphics2D;
+import java.awt.Shape;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

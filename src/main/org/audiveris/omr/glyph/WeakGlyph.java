@@ -23,8 +23,8 @@ package org.audiveris.omr.glyph;
 
 import org.audiveris.omr.util.Entity;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.lang.ref.WeakReference;
 
 /**

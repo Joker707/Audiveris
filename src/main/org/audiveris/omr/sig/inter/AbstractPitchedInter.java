@@ -30,7 +30,7 @@ import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.sig.GradeImpacts;
 import org.audiveris.omr.util.Jaxb;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 import java.util.Comparator;
 
 import javax.xml.bind.annotation.XmlAttribute;

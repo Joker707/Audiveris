@@ -33,9 +33,9 @@ import org.audiveris.omr.ui.view.LocationDependentMenu;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
-import myJava.awt.event.ActionEvent;
-import myJava.awt.image.BufferedImage;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;

@@ -23,7 +23,7 @@ package org.audiveris.omr.sheet.grid;
 
 import ij.process.ByteProcessor;
 
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>StaffPattern</code> is used to retrieve the vertical position that best fits

@@ -73,7 +73,7 @@ import org.audiveris.omr.step.StepException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Point;
+import java.awt.Point;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;

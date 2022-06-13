@@ -25,7 +25,7 @@ import org.audiveris.omr.sig.SIGraph;
 import org.audiveris.omr.sig.inter.Inter;
 import org.audiveris.omr.sig.relation.Relation;
 
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 

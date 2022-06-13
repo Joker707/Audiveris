@@ -16,8 +16,8 @@ import org.audiveris.omr.ui.symbol.Symbols;
 
 import org.junit.Ignore;
 
-import myJava.awt.image.BufferedImage;
-import myJava.awt.image.WritableRaster;
+import java.awt.image.BufferedImage;
+import java.awt.image.WritableRaster;
 import java.io.File;
 import java.util.*;
 

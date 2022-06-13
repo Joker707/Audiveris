@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 
 /**
  * Interface <code>Line</code> handles the equation of a line (or more generally some curved

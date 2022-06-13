@@ -34,8 +34,8 @@ import org.audiveris.omr.step.OmrStep;
 import org.audiveris.omr.util.HorizontalSide;
 import org.audiveris.omr.util.WrappedBoolean;
 
-import myJava.awt.Point;
-import myJava.awt.geom.Line2D;
+import java.awt.Point;
+import java.awt.geom.Line2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedHashSet;

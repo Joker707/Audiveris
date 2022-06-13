@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>LineUtil</code> is a collection of utilities related to lines.

@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.stem;
 
-import myJava.awt.Point;
+import java.awt.Point;
 import org.audiveris.omr.glyph.Glyph;
 import org.audiveris.omr.glyph.GlyphFactory;
 import org.audiveris.omr.glyph.GlyphIndex;
@@ -51,10 +51,10 @@ import org.audiveris.omr.sig.inter.StemInter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.geom.Area;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

@@ -24,9 +24,9 @@ package org.audiveris.omr.math;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.geom.CubicCurve2D;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.geom.CubicCurve2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>CubicUtil</code> gathers utility functions related to cubic bezier curves

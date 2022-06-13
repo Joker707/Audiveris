@@ -32,8 +32,8 @@ import org.bushe.swing.event.EventSubscriber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 /**
  * Class <code>RunService</code> provides a Run service on top of a RunTable.

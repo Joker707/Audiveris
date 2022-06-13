@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.field;
 
-import myJava.awt.event.ActionListener;
+import java.awt.event.ActionListener;
 
 import javax.swing.JComboBox;
 

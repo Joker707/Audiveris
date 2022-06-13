@@ -38,14 +38,14 @@ import org.audiveris.omr.util.WeakPropertyChangeListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
-import myJava.awt.Dimension;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
 import static java.awt.RenderingHints.KEY_ANTIALIASING;
 import static java.awt.RenderingHints.VALUE_ANTIALIAS_OFF;
-import myJava.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 

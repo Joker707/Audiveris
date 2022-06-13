@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.view;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 
 /**
  * Interface <code>LocationDependent</code> indicates an entity whose behavior may depend

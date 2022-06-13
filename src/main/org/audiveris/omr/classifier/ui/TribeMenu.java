@@ -38,7 +38,7 @@ import org.jdesktop.application.ApplicationActionMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;

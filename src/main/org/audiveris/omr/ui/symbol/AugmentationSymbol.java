@@ -26,10 +26,10 @@ import org.audiveris.omr.math.PointUtil;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
 import java.awt.Composite;
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>AugmentationSymbol</code> implements a decorated augmentation symbol.

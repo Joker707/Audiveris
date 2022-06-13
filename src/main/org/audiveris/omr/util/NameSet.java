@@ -26,7 +26,7 @@ import net.jcip.annotations.ThreadSafe;
 import org.audiveris.omr.constant.Constant;
 import org.audiveris.omr.ui.util.AbstractMenuListener;
 
-import myJava.awt.event.ActionListener;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;

@@ -25,11 +25,11 @@ import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
 import java.awt.BasicStroke;
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import awt.Stroke;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>TurnSlashSymbol</code> displays a TURN symbol with a vertical slash.

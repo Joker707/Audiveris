@@ -29,8 +29,8 @@ import org.audiveris.omr.sheet.SystemInfo;
 import org.audiveris.omr.sig.relation.Link;
 import org.audiveris.omr.sig.relation.MarkerBarRelation;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;

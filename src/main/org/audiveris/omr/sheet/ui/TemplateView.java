@@ -47,15 +47,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.AlphaComposite;
-import myJava.awt.Color;
+import java.awt.Color;
 import java.awt.Composite;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
 import awt.Stroke;
-import myJava.awt.event.ActionEvent;
-import myJava.awt.geom.Point2D;
-import myJava.awt.image.BufferedImage;
+import java.awt.event.ActionEvent;
+import java.awt.geom.Point2D;
+import java.awt.image.BufferedImage;
 
 /**
  * Class <code>TemplateView</code> handles a view of Template on top of the image of a

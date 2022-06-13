@@ -27,7 +27,7 @@ import Jama.Matrix;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 import static java.lang.Math.*;
 
 /**

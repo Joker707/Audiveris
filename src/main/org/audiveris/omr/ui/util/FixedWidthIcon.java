@@ -25,7 +25,7 @@ import org.audiveris.omr.constant.Constant;
 import org.audiveris.omr.constant.ConstantSet;
 
 import java.awt.Component;
-import myJava.awt.Graphics;
+import java.awt.Graphics;
 import java.util.Objects;
 
 import javax.swing.Icon;

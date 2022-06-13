@@ -27,7 +27,7 @@ import org.audiveris.omr.sheet.Sheet;
 import org.audiveris.omr.sig.ui.InterUIModel;
 
 import java.awt.AlphaComposite;
-import myJava.awt.Point;
+import java.awt.Point;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;

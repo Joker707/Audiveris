@@ -25,10 +25,10 @@ import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.util.Vip;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.List;
 

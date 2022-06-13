@@ -27,11 +27,11 @@ import org.audiveris.omr.sig.inter.LedgerInter;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
 import java.awt.Composite;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>LedgerSymbol</code> implements a ledger symbol.

@@ -25,10 +25,10 @@ import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.ui.symbol.Alignment.AREA_CENTER;
 
 import java.awt.BasicStroke;
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import awt.Stroke;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>SlashedFlagSymbol</code> displays a SMALL_FLAG_SLASH.

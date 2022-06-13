@@ -35,7 +35,7 @@ import org.audiveris.omr.sig.relation.Relation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 import java.util.EnumMap;
 import java.util.Map;
 

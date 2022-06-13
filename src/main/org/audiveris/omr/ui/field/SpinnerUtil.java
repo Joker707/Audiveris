@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui.field;
 
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 import java.util.List;
 
 import javax.swing.AbstractAction;

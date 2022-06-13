@@ -31,11 +31,11 @@ import org.audiveris.omr.sig.ui.InterEditor;
 import org.audiveris.omr.sig.ui.InterUIModel;
 import org.audiveris.omr.util.Jaxb;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Path2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Line2D;
+import java.awt.geom.Path2D;
+import java.awt.geom.Point2D;
 
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAccessType;

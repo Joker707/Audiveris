@@ -41,9 +41,9 @@ import org.audiveris.omr.util.Entities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Dimension;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.awt.font.TextLayout;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -49,9 +49,9 @@ import org.audiveris.omr.ui.selection.UserEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.util.Map;
 import java.util.TreeMap;
 

@@ -28,11 +28,11 @@ import org.audiveris.omr.ui.dnd.GhostGlassPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Graphics;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.AffineTransform;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.AffineTransform;
 
 /**
  * Class <code>OmrGlassPane</code> is a GhostGlassPane to draw draggable shape.

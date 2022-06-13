@@ -24,7 +24,7 @@ package org.audiveris.omr.ui.util;
 import org.audiveris.omr.constant.Constant;
 import org.audiveris.omr.constant.ConstantSet;
 
-import myJava.awt.Dimension;
+import java.awt.Dimension;
 
 import javax.swing.JSeparator;
 import javax.swing.JToolBar;

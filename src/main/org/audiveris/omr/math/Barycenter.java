@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.math;
 
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>Barycenter</code> is meant to cumulate data when computing barycenter.

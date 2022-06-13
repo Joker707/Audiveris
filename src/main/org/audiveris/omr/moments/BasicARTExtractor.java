@@ -26,7 +26,7 @@ import org.audiveris.omr.constant.ConstantSet;
 import static org.audiveris.omr.moments.ARTMoments.*;
 import org.audiveris.omr.util.StopWatch;
 
-import myJava.awt.image.WritableRaster;
+import java.awt.image.WritableRaster;
 
 /**
  * Class <code>BasicARTExtractor</code> implements extraction of ART Moments.

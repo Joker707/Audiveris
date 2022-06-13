@@ -40,7 +40,7 @@ import org.audiveris.omr.sig.relation.TimeTopBottomRelation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;

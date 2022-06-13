@@ -29,8 +29,8 @@ import org.audiveris.omr.sig.inter.Inter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
-import myJava.awt.Graphics;
+import java.awt.Color;
+import java.awt.Graphics;
 
 /**
  * Class <code>SheetGradedPainter</code> paints a sheet using shape-based colors and

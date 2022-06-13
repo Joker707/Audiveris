@@ -33,8 +33,8 @@ import org.audiveris.omr.util.NamedDouble;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
-import myJava.awt.event.ActionEvent;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;

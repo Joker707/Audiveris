@@ -26,9 +26,9 @@ import Jama.Matrix;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.geom.CubicCurve2D;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.geom.CubicCurve2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import static java.lang.Math.*;
 import java.util.ArrayList;
 import java.util.Collection;

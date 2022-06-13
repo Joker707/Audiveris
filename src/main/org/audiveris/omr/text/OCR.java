@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.text;
 
-import myJava.awt.Point;
-import myJava.awt.image.BufferedImage;
+import java.awt.Point;
+import java.awt.image.BufferedImage;
 import java.util.List;
 import java.util.Set;
 

@@ -28,10 +28,10 @@ import org.audiveris.omr.sheet.Staff;
 import org.audiveris.omr.sig.SIGraph;
 import org.audiveris.omr.util.Entities;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Point2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Area;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;

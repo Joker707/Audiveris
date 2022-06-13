@@ -21,14 +21,14 @@
 // </editor-fold>
 package org.audiveris.omr.glyph;
 
-import myJava.awt.Shape;
+import java.awt.Shape;
 import org.audiveris.omr.run.Orientation;
 import static org.audiveris.omr.run.Orientation.HORIZONTAL;
 import org.audiveris.omr.ui.util.AttachmentHolder;
 import org.audiveris.omr.ui.util.BasicAttachmentHolder;
 import org.audiveris.omr.util.AbstractEntity;
 
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Map;

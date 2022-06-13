@@ -28,7 +28,7 @@ import org.audiveris.omr.ui.view.HistoryMenu;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.event.ActionListener;
+import java.awt.event.ActionListener;
 import java.nio.file.Path;
 
 import javax.swing.JMenu;

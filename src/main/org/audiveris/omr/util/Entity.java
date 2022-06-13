@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.util;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 /**
  * Interface <code>Entity</code> describes an entity with an assigned ID, and with

@@ -31,12 +31,12 @@ import org.audiveris.omr.sig.inter.AbstractBeamInter;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
 import java.awt.Composite;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Area;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>BeamSymbol</code> implements beam symbols.

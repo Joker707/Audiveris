@@ -24,7 +24,7 @@ package org.audiveris.omr.ui;
 import org.audiveris.omr.ui.util.UIUtil;
 
 import java.awt.Toolkit;
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 import java.util.Collection;
 
 import javax.swing.AbstractAction;

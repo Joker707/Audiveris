@@ -23,7 +23,7 @@ package org.audiveris.omr.sheet.grid;
 
 import static org.audiveris.omr.util.HorizontalSide.*;
 
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>TargetLine</code> is an immutable perfect destination object for a staff line.

@@ -25,10 +25,10 @@ import org.audiveris.omr.glyph.Shape;
 import org.audiveris.omr.math.PointUtil;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>FlagsDownSymbol</code> displays a pack of several flags down

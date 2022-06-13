@@ -43,10 +43,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import myJava.awt.Color;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
 import awt.Stroke;
 import java.util.List;
 

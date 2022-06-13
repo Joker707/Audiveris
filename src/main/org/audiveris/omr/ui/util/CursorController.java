@@ -30,8 +30,8 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.Component;
 import java.awt.Cursor;
-import myJava.awt.event.ActionEvent;
-import myJava.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Timer;
 import java.util.TimerTask;
 

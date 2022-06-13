@@ -27,10 +27,10 @@ import static org.audiveris.omr.glyph.Shape.QUARTER_NOTE_UP;
 import org.audiveris.omr.glyph.ShapeSet;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 import org.audiveris.omr.math.GeoUtil;
 import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.sig.inter.CompoundNoteInter;

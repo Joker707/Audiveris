@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.image;
 
-import myJava.awt.image.BufferedImage;
-import myJava.awt.image.ColorModel;
+import java.awt.image.BufferedImage;
+import java.awt.image.ColorModel;
 import java.awt.image.Raster;
 
 /**

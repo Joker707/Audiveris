@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.Component;
 import java.awt.Container;
-import myJava.awt.Dimension;
+import java.awt.Dimension;
 import java.beans.PropertyChangeEvent;
 
 import javax.swing.JComponent;

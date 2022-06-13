@@ -23,11 +23,11 @@ package org.audiveris.omr.math;
 
 import ij.process.ByteProcessor;
 
-import myJava.awt.Shape;
-import myJava.awt.geom.AffineTransform;
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Path2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Shape;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Area;
+import java.awt.geom.Path2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>AreaUtil</code> gathers static utility methods for Area instances.

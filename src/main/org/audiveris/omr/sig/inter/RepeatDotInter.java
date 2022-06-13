@@ -34,8 +34,8 @@ import org.audiveris.omr.sig.relation.Link;
 import org.audiveris.omr.sig.relation.RepeatDotBarRelation;
 import org.audiveris.omr.sig.relation.RepeatDotPairRelation;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

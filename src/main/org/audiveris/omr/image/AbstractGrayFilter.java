@@ -25,7 +25,7 @@ import ij.process.ByteProcessor;
 
 import org.audiveris.omr.util.StopWatch;
 
-import myJava.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 
 /**
  * Class <code>AbstractGrayFilter</code> is the basis for filters operating on gray-level

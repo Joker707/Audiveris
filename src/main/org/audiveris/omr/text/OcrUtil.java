@@ -24,10 +24,10 @@ package org.audiveris.omr.text;
 import org.audiveris.omr.text.OCR.LayoutMode;
 import org.audiveris.omr.text.tesseract.TesseractOCR;
 
-import myJava.awt.Color;
-import myJava.awt.Graphics;
-import myJava.awt.Point;
-import myJava.awt.image.BufferedImage;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Point;
+import java.awt.image.BufferedImage;
 import java.util.List;
 
 /**

@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.curve;
 
-import myJava.awt.Point;
+import java.awt.Point;
 import java.util.Collection;
 import java.util.List;
 

@@ -34,7 +34,7 @@ import org.jgrapht.event.GraphEdgeChangeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.geom.Line2D;
+import java.awt.geom.Line2D;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

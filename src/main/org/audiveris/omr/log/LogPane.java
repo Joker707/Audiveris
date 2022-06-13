@@ -31,7 +31,7 @@ import org.audiveris.omr.ui.util.UIUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
+import java.awt.Color;
 import java.awt.Insets;
 import java.util.Map;
 

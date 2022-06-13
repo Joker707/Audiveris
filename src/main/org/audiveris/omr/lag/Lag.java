@@ -27,7 +27,7 @@ import org.audiveris.omr.run.RunTable;
 import org.audiveris.omr.ui.selection.SelectionService;
 import org.audiveris.omr.util.EntityIndex;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.Set;
 

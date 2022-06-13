@@ -96,23 +96,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.awt.BasicStroke;
-import myJava.awt.Color;
-import myJava.awt.Dimension;
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Font;
-import myJava.awt.Graphics;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
 import awt.Stroke;
 import java.awt.font.FontRenderContext;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
-import myJava.awt.geom.Area;
-import myJava.awt.geom.CubicCurve2D;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Path2D;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Area;
+import java.awt.geom.CubicCurve2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Path2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.ConcurrentModificationException;
@@ -821,7 +821,7 @@ public abstract class SheetPainter
                     p.lineTo(midLine.getX1() + (xDir * width), midLine.getY1());
                     p.closePath();
 
-                    myJava.awt.Shape oldClip = g.getClip();
+                    java.awt.Shape oldClip = g.getClip();
                     g.clip(p);
                     visit((Inter) head);
                     g.setClip(oldClip);
@@ -1220,7 +1220,7 @@ public abstract class SheetPainter
                     p.lineTo(line.getX1(), line.getY1() + (yDir * height));
                     p.closePath();
 
-                    final myJava.awt.Shape oldClip = g.getClip();
+                    final java.awt.Shape oldClip = g.getClip();
                     g.clip(p);
 
                     setColor(ch);

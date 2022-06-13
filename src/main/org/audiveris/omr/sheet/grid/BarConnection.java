@@ -25,8 +25,8 @@ import org.audiveris.omr.math.AreaUtil;
 import org.audiveris.omr.sheet.Sheet;
 import org.audiveris.omr.sig.GradeImpacts;
 
-import myJava.awt.geom.Area;
-import myJava.awt.geom.Line2D;
+import java.awt.geom.Area;
+import java.awt.geom.Line2D;
 
 /**
  * Class <code>BarConnection</code> represents a concrete connection across staves between

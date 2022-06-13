@@ -27,7 +27,7 @@ import org.audiveris.omr.sheet.grid.BarConnection;
 import org.audiveris.omr.sig.GradeImpacts;
 import org.audiveris.omr.util.Version;
 
-import myJava.awt.geom.Line2D;
+import java.awt.geom.Line2D;
 import java.util.List;
 
 /**

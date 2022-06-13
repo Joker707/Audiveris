@@ -37,8 +37,8 @@ import org.audiveris.omr.ui.view.LocationDependentMenu;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
-import myJava.awt.event.ActionEvent;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
 
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;

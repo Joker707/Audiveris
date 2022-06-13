@@ -41,10 +41,10 @@ import org.audiveris.omr.ui.symbol.ShapeSymbol;
 import org.audiveris.omr.util.Jaxb;
 import org.audiveris.omr.util.Version;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.util.List;
 
 import javax.xml.bind.Unmarshaller;

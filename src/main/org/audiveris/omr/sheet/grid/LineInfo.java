@@ -26,9 +26,9 @@ import org.audiveris.omr.math.NaturalSpline;
 import org.audiveris.omr.sheet.StaffLine;
 import org.audiveris.omr.util.HorizontalSide;
 
-import myJava.awt.Graphics2D;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Point2D;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.geom.Point2D;
 
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 

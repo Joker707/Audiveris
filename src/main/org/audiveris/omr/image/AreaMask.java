@@ -25,8 +25,8 @@ import ij.process.ByteProcessor;
 
 import org.audiveris.omr.util.Wrapper;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Area;
+import java.awt.Rectangle;
+import java.awt.geom.Area;
 
 /**
  * Class <code>AreaMask</code> drives processing of locations using an absolute mask.

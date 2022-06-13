@@ -23,8 +23,8 @@ package org.audiveris.omr.ui.view;
 
 import org.audiveris.omr.ui.selection.MouseMovement;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 /**
  * Interface <code>MouseMonitor</code> defines the entries of an entity to be notified of

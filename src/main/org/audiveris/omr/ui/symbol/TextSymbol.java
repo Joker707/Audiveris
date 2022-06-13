@@ -26,8 +26,8 @@ import org.audiveris.omr.sig.inter.WordInter;
 import org.audiveris.omr.text.FontInfo;
 import static org.audiveris.omr.ui.symbol.Alignment.TOP_LEFT;
 
-import myJava.awt.Point;
-import myJava.awt.geom.Point2D;
+import java.awt.Point;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>TextSymbol</code> implements a decorated text symbol

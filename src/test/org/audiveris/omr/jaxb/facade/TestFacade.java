@@ -25,8 +25,8 @@ import org.audiveris.omr.util.BaseTestCase;
 import org.audiveris.omr.util.Dumping;
 import org.audiveris.omr.util.Jaxb;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

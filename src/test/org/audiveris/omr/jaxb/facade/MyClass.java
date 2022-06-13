@@ -23,8 +23,8 @@ package org.audiveris.omr.jaxb.facade;
 
 import org.audiveris.omr.util.Jaxb;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -28,8 +28,8 @@ import static org.audiveris.omr.ui.symbol.Alignment.Vertical.*;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;

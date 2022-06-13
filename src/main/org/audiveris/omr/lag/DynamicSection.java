@@ -28,9 +28,9 @@ import org.audiveris.omr.run.Run;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Point;
-import myJava.awt.Polygon;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Polygon;
+import java.awt.Rectangle;
 
 /**
  * Class <code>DynamicSection</code> is a section that can evolve by adding runs or

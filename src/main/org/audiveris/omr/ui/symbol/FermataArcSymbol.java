@@ -25,11 +25,11 @@ import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.glyph.Shape.DOT_set;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import myJava.awt.Color;
+import java.awt.Color;
 import java.awt.Composite;
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 
 /**
  * Class <code>FermataArcSymbol</code> implements Fermata Arc symbols with the related dot

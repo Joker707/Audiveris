@@ -33,7 +33,7 @@ import org.audiveris.omr.sig.inter.KeyInter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 
 /**
  * Class <code>KeySlice</code> represents a rectangular slice of a key signature, likely to

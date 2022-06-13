@@ -1,4 +1,5 @@
 rootProject.name = 'Audiveris'
 include 'schemas'
 include 'myandroidlibrary'
+include 'relocation'
 

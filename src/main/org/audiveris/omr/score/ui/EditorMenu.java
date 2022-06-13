@@ -54,9 +54,9 @@ import org.audiveris.omr.util.HorizontalSide;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
-import myJava.awt.event.ActionEvent;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 

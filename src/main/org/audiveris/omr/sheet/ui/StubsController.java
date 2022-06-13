@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.sheet.ui;
 
-import myJava.awt.Color;
+import java.awt.Color;
 import org.audiveris.omr.constant.Constant;
 import org.audiveris.omr.constant.ConstantSet;
 import org.audiveris.omr.sheet.Book;
@@ -35,7 +35,7 @@ import org.audiveris.omr.ui.selection.StubEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.lang.reflect.InvocationTargetException;

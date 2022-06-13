@@ -28,9 +28,9 @@ import org.audiveris.omr.sig.relation.Link;
 import org.audiveris.omr.sig.relation.SlurHeadRelation;
 import org.audiveris.omr.util.HorizontalSide;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Line2D;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.util.Comparator;
 
 /**

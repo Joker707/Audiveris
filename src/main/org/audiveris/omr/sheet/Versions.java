@@ -50,9 +50,9 @@ import org.kohsuke.github.GitHub;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Color;
+import java.awt.Color;
 import java.awt.Insets;
-import myJava.awt.event.ActionEvent;
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.text.DateFormat;

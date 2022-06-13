@@ -21,8 +21,8 @@
 // </editor-fold>
 package org.audiveris.omr.ui.view;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 /**
  * Interface <code>PixelFocus</code> define the features related to setting a focus

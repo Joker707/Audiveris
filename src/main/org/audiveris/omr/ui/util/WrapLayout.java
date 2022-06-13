@@ -5,7 +5,8 @@
 //------------------------------------------------------------------------------------------------//
 package org.audiveris.omr.ui.util;
 
-import myJava.awt.Dimension;
+import java.awt.*;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

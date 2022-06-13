@@ -35,8 +35,8 @@ import org.audiveris.omr.sig.relation.Relation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;

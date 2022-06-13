@@ -21,13 +21,13 @@
 // </editor-fold>
 package org.audiveris.omr.ui.symbol;
 
-import myJava.awt.Dimension;
-import myJava.awt.Graphics2D;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.Rectangle;
 import awt.Stroke;
-import myJava.awt.geom.Point2D;
-import myJava.awt.image.BufferedImage;
+import java.awt.geom.Point2D;
+import java.awt.image.BufferedImage;
 
 import javax.swing.Icon;
 

@@ -32,10 +32,10 @@ package org.audiveris.omr.math;
 // History:            First version
 // History:
 //=============================================================================
-import myJava.awt.Shape;
-import myJava.awt.geom.AffineTransform;
+import java.awt.Shape;
+import java.awt.geom.AffineTransform;
 import java.awt.geom.IllegalPathStateException;
-import myJava.awt.geom.PathIterator;
+import java.awt.geom.PathIterator;
 
 /**
  * A path iterator which iterates over a path in the reverse direction.

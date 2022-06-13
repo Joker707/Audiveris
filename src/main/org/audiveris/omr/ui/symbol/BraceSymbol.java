@@ -24,11 +24,11 @@ package org.audiveris.omr.ui.symbol;
 import org.audiveris.omr.glyph.Shape;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import myJava.awt.Graphics2D;
+import java.awt.Graphics2D;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>BraceSymbol</code> displays a BRACE symbol: {

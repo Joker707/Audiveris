@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.ui;
 
-import myJava.awt.Color;
+import java.awt.Color;
 
 /**
  * Class <code>Colors</code> gathers in one place the various colors used by

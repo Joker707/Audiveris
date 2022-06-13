@@ -25,7 +25,7 @@ import ij.process.ByteProcessor;
 
 import org.audiveris.omr.util.ByteUtil;
 
-import myJava.awt.Point;
+import java.awt.Point;
 
 /**
  * Class <code>Lags</code> gathers utilities for lags.

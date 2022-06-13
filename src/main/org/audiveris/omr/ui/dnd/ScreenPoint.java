@@ -22,8 +22,8 @@
 package org.audiveris.omr.ui.dnd;
 
 import java.awt.Component;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 import javax.swing.SwingUtilities;
 

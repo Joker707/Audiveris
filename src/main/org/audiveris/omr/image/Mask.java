@@ -27,9 +27,9 @@ import org.audiveris.omr.util.Table;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Area;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.geom.Area;
 
 /**
  * Class <code>Mask</code> defines a mask to be applied on an image.

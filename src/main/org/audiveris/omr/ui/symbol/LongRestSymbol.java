@@ -24,7 +24,7 @@ package org.audiveris.omr.ui.symbol;
 import org.audiveris.omr.glyph.Shape;
 
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
+import java.awt.geom.AffineTransform;
 
 /**
  * Class <code>LongRestSymbol</code> is an implementation for a LONG_REST symbol.

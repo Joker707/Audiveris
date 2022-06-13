@@ -21,7 +21,7 @@
 // </editor-fold>
 package org.audiveris.omr.image;
 
-import myJava.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 
 /**
  * Class <code>FloodFiller</code>

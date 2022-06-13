@@ -27,7 +27,7 @@ import org.audiveris.omr.util.Jaxb;
 
 import org.junit.Test;
 
-import myJava.awt.Dimension;
+import java.awt.Dimension;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

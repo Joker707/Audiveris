@@ -38,7 +38,7 @@ import static org.audiveris.omr.util.HorizontalSide.RIGHT;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.geom.Point2D;
+import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.SortedMap;

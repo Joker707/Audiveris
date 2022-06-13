@@ -21,9 +21,9 @@
 // </editor-fold>
 package org.audiveris.omr.lag.ui;
 
-import myJava.awt.Color;
-import myJava.awt.Graphics;
-import myJava.awt.Rectangle;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Rectangle;
 
 /**
  * Class <code>SectionView</code> defines one view meant for display of a given section.

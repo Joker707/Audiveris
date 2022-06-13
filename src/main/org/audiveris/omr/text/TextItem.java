@@ -23,8 +23,8 @@ package org.audiveris.omr.text;
 
 import org.audiveris.omr.math.GeoUtil;
 
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Point2D;
+import java.awt.Rectangle;
+import java.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.List;
 

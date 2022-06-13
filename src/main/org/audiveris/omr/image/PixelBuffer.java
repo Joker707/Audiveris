@@ -30,12 +30,12 @@ import org.audiveris.omr.util.Table;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Dimension;
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
-import myJava.awt.image.BufferedImage;
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
-import myJava.awt.image.WritableRaster;
+import java.awt.image.WritableRaster;
 
 /**
  * Class <code>PixelBuffer</code> handles a plain rectangular buffer of bytes.

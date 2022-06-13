@@ -26,10 +26,10 @@ import org.audiveris.omr.math.PointUtil;
 import org.audiveris.omr.sig.inter.KeyInter;
 import static org.audiveris.omr.ui.symbol.Alignment.*;
 
-import myJava.awt.Graphics2D;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Point2D;
-import myJava.awt.geom.Rectangle2D;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Class <code>KeySymbol</code> displays a Key Signature symbol.

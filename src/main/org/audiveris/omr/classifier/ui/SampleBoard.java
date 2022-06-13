@@ -42,7 +42,7 @@ import org.jdesktop.application.ApplicationAction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Dimension;
+import java.awt.Dimension;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;

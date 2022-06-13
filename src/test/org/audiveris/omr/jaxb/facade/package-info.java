@@ -6,8 +6,8 @@ package org.audiveris.omr.jaxb.facade;
 
 import org.audiveris.omr.util.Jaxb;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters;

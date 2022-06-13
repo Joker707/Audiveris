@@ -31,12 +31,12 @@ import org.audiveris.omr.sheet.Scale.MusicFontScale;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Dimension;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.font.TextLayout;
-import myJava.awt.geom.AffineTransform;
-import myJava.awt.geom.Rectangle2D;
-import myJava.awt.image.BufferedImage;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Rectangle2D;
+import java.awt.image.BufferedImage;
 import java.util.HashMap;
 import java.util.Map;
 

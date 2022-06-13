@@ -23,8 +23,8 @@ package org.audiveris.omr.util;
 
 import org.audiveris.omr.ui.selection.EntityService;
 
-import myJava.awt.Point;
-import myJava.awt.Rectangle;
+import java.awt.Point;
+import java.awt.Rectangle;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;

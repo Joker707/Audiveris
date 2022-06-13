@@ -33,9 +33,9 @@ import static org.audiveris.omr.util.HorizontalSide.LEFT;
 import org.audiveris.omr.util.VerticalSide;
 import static org.audiveris.omr.util.VerticalSide.TOP;
 
-import myJava.awt.Graphics2D;
-import myJava.awt.Rectangle;
-import myJava.awt.geom.Point2D;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.geom.Point2D;
 import java.util.EnumSet;
 import java.util.Objects;
 

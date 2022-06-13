@@ -29,7 +29,7 @@ import org.audiveris.omr.text.TextRole;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlAttribute;

@@ -22,7 +22,7 @@
 package org.audiveris.omr.ui.view;
 
 import java.awt.Component;
-import myJava.awt.Rectangle;
+import java.awt.Rectangle;
 
 import javax.swing.AbstractButton;
 import javax.swing.Action;
