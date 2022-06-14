@@ -4,7 +4,7 @@ import java.awt.font.FontRenderContext;
 import java.awt.font.GlyphVector;
 import java.awt.geom.AffineTransform;
 
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.image.BufferedImage;
 
 import java.awt.image.BufferedImageOp;

@@ -85,7 +85,7 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import static java.awt.RenderingHints.KEY_ANTIALIASING;
 import static java.awt.RenderingHints.VALUE_ANTIALIAS_ON;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;

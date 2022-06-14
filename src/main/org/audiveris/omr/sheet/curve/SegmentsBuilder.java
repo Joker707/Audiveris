@@ -43,7 +43,7 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Shape;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.Collection;

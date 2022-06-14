@@ -41,7 +41,7 @@ import java.awt.Frame;
 import static java.awt.Frame.ICONIFIED;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;

@@ -52,7 +52,7 @@ import java.awt.Composite;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Rectangle;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.event.ActionEvent;
 import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;

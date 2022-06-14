@@ -40,7 +40,7 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.util.ArrayList;
 import java.util.List;
 

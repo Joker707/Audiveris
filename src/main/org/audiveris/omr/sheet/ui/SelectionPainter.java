@@ -39,7 +39,7 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import awt.Stroke;
+import java.awt.Stroke;
 import java.awt.font.TextLayout;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Ellipse2D;
