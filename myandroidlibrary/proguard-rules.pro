@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-libraryjars build/libs/relocation-5.2.5-all.jar
+
+-keep  class myAndroid.AndroidFacade {
+        public java.lang.Object recognize(android.graphics.Bitmap);
+}
+
+-dontoptimize
+-dontobfuscate
