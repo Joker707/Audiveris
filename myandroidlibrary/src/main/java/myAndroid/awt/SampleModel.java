@@ -14,19 +14,4 @@ public class SampleModel {
 
 
 
-    public int[] getPixel(int x, int y, int[] iArray, DataBuffer data) {
-
-        int[] pixels;
-
-        if (iArray != null)
-            pixels = iArray;
-        else
-            pixels = new int[numBands];
-
-        for (int i = 0; i < numBands; i++) {
-            pixels[i] = getSample(x, y, i, data);
-        }
-
-        return pixels;
-    }
 }

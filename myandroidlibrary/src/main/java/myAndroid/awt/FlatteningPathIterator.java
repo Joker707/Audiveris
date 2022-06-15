@@ -211,7 +211,7 @@ public class FlatteningPathIterator implements PathIterator {
 
                 level = levels[levelIndex];
                 while (level < limit) {
-                    if (java.awt.geom.QuadCurve2D.getFlatnessSq(hold, holdIndex) < squareflat) {
+                    if (QuadCurve2D.getFlatnessSq(hold, holdIndex) < squareflat) {
                         break;
                     }
 

@@ -1,6 +1,7 @@
 package myAndroid.awt;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Enumeration;
 import java.util.Vector;
 
@@ -117,6 +118,23 @@ public abstract class AreaOp {
     }
 
 
+
+    private static Comparator<Edge> YXTopComparator = new Comparator<Edge>() {
+        public int compare(Edge o1, Edge o2) {
+            Curve c1 = o1.getCurve();
+            Curve c2 = o2.getCurve();
+            double v1, v2;
+            if ((v1 = c1.getYTop()) == (v2 = c2.getYTop())) {
+                if ((v1 = c1.getXTop()) == (v2 = c2.getXTop())) {
+                    return 0;
+                }
+            }
+            if (v1 < v2) {
+                return -1;
+            }
+            return 1;
+        }
+    };
 
 
     private Vector<Curve> pruneEdges(Vector<Edge> edges) {

@@ -1,3 +1,7 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
 apply plugin: 'application'
 
 version  = '5.2.5'
@@ -321,6 +325,14 @@ fileTree("$projectDir/private").include('*.gradle').each { file ->
 // Tell gradle to log standard output and error streams when running tests
 test {
     testLogging.showStandardStreams = true
+}
+
+shadowJar {
+    relocate 'java.awt', 'myAndroid.awt'
+    relocate 'sun.awt', 'myAndroid.awt'
+    relocate 'javax.media.jai', 'myAndroid.jai'
+    relocate 'org.audiveris.omr.step.LoadStep', 'myAndroid.step.LoadStep'
+    relocate 'ij.process', 'myAndroid.ij'
 }
 
 

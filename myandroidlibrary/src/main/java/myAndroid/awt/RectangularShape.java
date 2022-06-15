@@ -1,7 +1,7 @@
 package myAndroid.awt;
 
 
-public abstract class RectangularShape {
+public abstract class RectangularShape implements Shape, Cloneable{
 
     protected RectangularShape() {
     }

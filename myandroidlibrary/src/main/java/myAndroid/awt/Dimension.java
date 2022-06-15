@@ -1,7 +1,7 @@
 package myAndroid.awt;
 
 
-import java.beans.Transient;
+
 
 public class Dimension extends Dimension2D implements java.io.Serializable {
 
@@ -40,7 +40,7 @@ public class Dimension extends Dimension2D implements java.io.Serializable {
         this.height = (int) Math.ceil(height);
     }
 
-    @Transient
+
     public Dimension getSize() {
         return new Dimension(width, height);
     }

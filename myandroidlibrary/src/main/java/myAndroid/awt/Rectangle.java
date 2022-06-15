@@ -3,10 +3,10 @@ package myAndroid.awt;
 
 
 
-import java.beans.Transient;
+
 
 public class Rectangle extends Rectangle2D
-        implements myJava.Rectangle, Shape, java.io.Serializable {
+        implements Shape, java.io.Serializable {
 
 
     public int x;
@@ -79,7 +79,7 @@ public class Rectangle extends Rectangle2D
     }
 
 
-    @Transient
+
     public Rectangle getBounds() {
         return new Rectangle(x, y, width, height);
     }
