@@ -2,7 +2,7 @@ package myAndroid.awt;
 
 
 
-import java.beans.Transient;
+
 
 public class Point extends Point2D implements java.io.Serializable {
     public int x;
@@ -35,7 +35,7 @@ public class Point extends Point2D implements java.io.Serializable {
         return y;
     }
 
-    @Transient
+
     public Point getLocation() {
         return new Point(x, y);
     }

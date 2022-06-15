@@ -13,6 +13,16 @@ public class Edge {
     double activey;
     int equivalence;
 
+    public Edge(Curve c, int ctag) {
+        this(c, ctag, AreaOp.ETAG_IGNORE);
+    }
+
+    public Edge(Curve c, int ctag, int etag) {
+        this.curve = c;
+        this.ctag = ctag;
+        this.etag = etag;
+    }
+
     public int getCurveTag() {
         return ctag;
     }

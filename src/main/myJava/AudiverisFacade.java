@@ -3,7 +3,6 @@ package myJava;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Environment;
-import myAndroid.step.LoadStep;
 import java.awt.image.BufferedImage;
 import org.audiveris.omr.OMR;
 import org.audiveris.omr.sheet.Book;
@@ -70,7 +69,7 @@ public class AudiverisFacade {
             logger.warn("Exception occurred " + ex, ex);
             throw new RuntimeException(ex);
         } catch (StepException ignored) {
-            logger.info("StepException detected in " + neededSteps);
+            logger.info("StepException detected in ");
         } finally {
             // Close (when in batch mode only)
             if (OMR.gui == null) {
@@ -83,48 +82,16 @@ public class AudiverisFacade {
 
         }
 
-
-
-
-        // короче
-        // нужно вызвать reachStep(PAGE, false), перед этим инициализировав Sheet etc.
-
-        private final EnumSet<OmrStep> doneSteps = EnumSet.noneOf(OmrStep.class);
-
-
-        //reach step
-
-
-
+        return book.getStubs();
     }
 
-
-
-
-    public void processing() {
-        //init(?)
-
-
-
-        //load book
-
-
-
-
-
-        //process book
-
-
-
-
-
-    }
 
 
 
     public Bitmap createImage() {
         File sd = Environment.getExternalStorageDirectory();
-        File image = new File(sd+filePath, imageName);
+        String fileName = "";
+        File image = new File(sd, fileName);
         BitmapFactory.Options bmOptions = new BitmapFactory.Options();
         Bitmap bitmap = BitmapFactory.decodeFile(image.getAbsolutePath(),bmOptions);
         return bitmap;

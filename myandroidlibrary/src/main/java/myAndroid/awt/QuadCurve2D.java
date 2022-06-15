@@ -232,7 +232,7 @@ public abstract class QuadCurve2D implements Shape, Cloneable {
                 pts[offset + 2].getX(), pts[offset + 2].getY());
     }
 
-    public void setCurve(java.awt.geom.QuadCurve2D c) {
+    public void setCurve(QuadCurve2D c) {
         setCurve(c.getX1(), c.getY1(),
                 c.getCtrlX(), c.getCtrlY(),
                 c.getX2(), c.getY2());

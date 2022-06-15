@@ -4,7 +4,7 @@ package myAndroid.awt;
 
 
 
-import java.beans.ConstructorProperties;
+
 
 public class AffineTransform implements Cloneable, java.io.Serializable {
 
@@ -119,7 +119,7 @@ public class AffineTransform implements Cloneable, java.io.Serializable {
         this.type = Tx.type;
     }
 
-    @ConstructorProperties({ "scaleX", "shearY", "shearX", "scaleY", "translateX", "translateY" })
+
     public AffineTransform(float m00, float m10,
                            float m01, float m11,
                            float m02, float m12) {

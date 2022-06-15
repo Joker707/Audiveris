@@ -47,7 +47,7 @@ public class Area {
 
 
     // we debug it after rewriting rectangle class with rectangle2d exclusion
-    private Rectangle getCachedBounds() {
+    private Rectangle2D getCachedBounds() {
         if (cachedBounds != null) {
             return cachedBounds;
         }
@@ -88,7 +88,7 @@ public class Area {
 
 
 
-    private Rectangle cachedBounds;
+    private Rectangle2D cachedBounds;
     private void invalidateBounds() {
         cachedBounds = null;
     }
