@@ -1,6 +1,6 @@
 package myAndroid.ij;
 
-import myAndroid.awt.BufferedImage;
+import myAndroid.java.awt.image.BufferedImage;
 
 public class ColorProcessor extends ImageProcessor {
 

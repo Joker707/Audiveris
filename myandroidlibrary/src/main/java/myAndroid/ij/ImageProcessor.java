@@ -1,9 +1,9 @@
 package myAndroid.ij;
 
 
-import myAndroid.awt.BufferedImage;
-import myAndroid.awt.ColorModel;
-import myAndroid.awt.WritableRaster;
+import myAndroid.java.awt.image.BufferedImage;
+import myAndroid.java.awt.image.ColorModel;
+import myAndroid.java.awt.image.WritableRaster;
 
 import java.util.Objects;
 

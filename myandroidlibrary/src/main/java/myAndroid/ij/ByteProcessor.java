@@ -1,7 +1,7 @@
 package myAndroid.ij;
 
 
-import myAndroid.awt.*;
+import myAndroid.java.awt.image.*;
 
 public class ByteProcessor extends ImageProcessor {
 
