@@ -20,8 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--injars build/libs/Audiveris-5.2.5-all.jar
-
 -keep  class myAndroid.AndroidFacade {
         public java.lang.Object recognize(android.graphics.Bitmap);
 }

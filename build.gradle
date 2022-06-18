@@ -332,7 +332,6 @@ shadowJar {
     relocate 'sun.awt', 'myAndroid.sun.awt'
     relocate 'javax.media.jai', 'myAndroid.jai'
     relocate 'org.audiveris.omr.image.ImageLoading', 'myAndroid.omr.image.ImageLoading'
-    relocate 'ij.process', 'myAndroid.ij'
 }
 
 
