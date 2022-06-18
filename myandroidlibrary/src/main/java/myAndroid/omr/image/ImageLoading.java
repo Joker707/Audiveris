@@ -1,4 +1,4 @@
-package myAndroid.image;
+package myAndroid.omr.image;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
