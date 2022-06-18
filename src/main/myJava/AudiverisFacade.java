@@ -1,8 +1,5 @@
 package myJava;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.Environment;
 import java.awt.image.BufferedImage;
 import org.audiveris.omr.OMR;
 import org.audiveris.omr.sheet.Book;
@@ -84,20 +81,6 @@ public class AudiverisFacade {
 
         return book.getStubs();
     }
-
-
-
-
-    public Bitmap createImage() {
-        File sd = Environment.getExternalStorageDirectory();
-        String fileName = "";
-        File image = new File(sd, fileName);
-        BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-        Bitmap bitmap = BitmapFactory.decodeFile(image.getAbsolutePath(),bmOptions);
-        return bitmap;
-    }
-
-
 
 
 }
