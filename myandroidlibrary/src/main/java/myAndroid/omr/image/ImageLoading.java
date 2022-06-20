@@ -55,20 +55,21 @@ public class ImageLoading {
     }
 
     private static Loader getPNGLoader(Path imgPath) {
-        logger.debug("getJaiLoader {}", imgPath);
+        logger.debug("getPNGLoader {}", imgPath);
 
         try {
             BitmapFactory.Options bmOptions = new BitmapFactory.Options();
             Bitmap bitmap = BitmapFactory.decodeFile(imgPath.toString(), bmOptions);
             BufferedImage image = new BufferedImage(bitmap.getWidth(), bitmap.getHeight(), BufferedImage.TYPE_4BYTE_ABGR);
+            image.getRaster().bitmap = bitmap;
 
             if ((bitmap != null) && (image.getWidth() > 0) && (image.getHeight() > 0)) {
                 return new PNGLoader(image);
             }
 
-            logger.debug("No image read by JAI for {}", imgPath);
+            logger.debug("No image read by PNG for {}", imgPath);
         } catch (Exception ex) {
-            logger.warn("JAI failed opening {}, {} ", imgPath, ex.toString(), ex);
+            logger.warn("PNG failed opening {}, {} ", imgPath, ex.toString(), ex);
         }
 
         return null;

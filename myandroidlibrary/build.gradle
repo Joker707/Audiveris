@@ -8,6 +8,7 @@ buildscript {
     }
 }
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 repositories {
     google()
@@ -34,20 +35,31 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_9
-        targetCompatibility JavaVersion.VERSION_1_9
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    sourceSets {
-        main { java.srcDirs = ['src/main/java'] }
-        test { java.srcDirs = ['src/test/java'] }
-        androidTest { java.srcDirs = ['src/androidTest/java'] }
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
+
+}
+
+publishing {
+    publications {
+        bar(MavenPublication) {
+            groupId 'com.foo'
+            artifactId 'bar'
+            version '0.1'
+            artifact("$buildDir/outputs/aar/myandroidlibrary-release.aar")
+        }
     }
 }
 
 
 dependencies {
 
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'org.testng:testng:7.1.0'

@@ -331,6 +331,10 @@ shadowJar {
     relocate 'sun.awt', 'myAndroid.sun.awt'
     relocate 'javax.media.jai', 'myAndroid.jai'
     relocate 'org.audiveris.omr.image.ImageLoading', 'myAndroid.omr.image.ImageLoading'
+    minimize {
+        exclude 'javax/media/jai/**'
+        exclude 'org/audiveris/omr/image/ImageLoading*.class'
+    }
 }
 
 
