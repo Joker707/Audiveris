@@ -3,7 +3,7 @@
  * This software is released under the GNU General Public License.
  * Goto http://kenai.com/projects/audiveris to report bugs or suggestions.
  */
-package com.example.myapplication;
+package com.example.myapplication.glyph;
 
 import myAndroid.java.awt.Dimension;
 import org.audiveris.omr.glyph.GlyphFactory;

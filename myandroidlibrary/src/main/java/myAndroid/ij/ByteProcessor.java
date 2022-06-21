@@ -8,6 +8,11 @@ public class ByteProcessor extends ImageProcessor {
     protected byte[] pixels;
 
 
+    public ByteProcessor(int width, int height) {
+        this(width, height, new byte[width*height], null);
+    }
+
+
     public ByteProcessor(int width, int height, byte[] pixels, ColorModel cm) {
         if (pixels != null && width * height != pixels.length)
             throw new IllegalArgumentException(WRONG_LENGTH);
@@ -62,6 +67,28 @@ public class ByteProcessor extends ImageProcessor {
         return (Object)pixels;
     }
 
+
+
+
+    public final int get(int x, int y) {return pixels[y*width+x]&0xff;}
+    public final void set(int x, int y, int value) {pixels[y*width+x] = (byte)value;}
+    public final int get(int index) {return pixels[index]&0xff;}
+    public final void set(int index, int value) {pixels[index] = (byte)value;}
+    public final float getf(int x, int y) {return pixels[y*width+x]&0xff;}
+    public final void setf(int x, int y, float value) {pixels[y*width+x] = (byte)(value+0.5f);}
+    public final float getf(int index) {return pixels[index]&0xff;}
+    public final void setf(int index, float value) {pixels[index] = (byte)value;}
+
+
+    public void applyTable(int[] lut) {
+        int lineStart, lineEnd;
+        for (int y=roiY; y<(roiY+roiHeight); y++) {
+            lineStart = y * width + roiX;
+            lineEnd = lineStart + roiWidth;
+            for (int i=lineEnd; --i>=lineStart;)
+                pixels[i] = (byte)lut[pixels[i]&0xff];
+        }
+    }
 
 
 

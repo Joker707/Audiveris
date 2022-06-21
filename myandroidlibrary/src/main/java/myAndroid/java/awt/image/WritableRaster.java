@@ -12,4 +12,10 @@ public class WritableRaster extends Raster {
 
 
 
+    public void setPixel(int x, int y, int[] pixel) {
+        bitmap.setPixel(x, y, Color.rgb(pixel[0], pixel[0], pixel[0]));
+    }
+
+
+
 }

@@ -9,6 +9,7 @@ public class Raster {
 
 
 
+    public WritableRaster writableRaster;
     public Bitmap bitmap;
 
     protected SampleModel sampleModel;
@@ -35,7 +36,7 @@ public class Raster {
                                                       DataBuffer db,
                                                       Point location)
     {
-        return null;
+        return new WritableRaster();
     }
 
 

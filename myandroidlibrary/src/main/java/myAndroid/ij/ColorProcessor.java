@@ -29,6 +29,11 @@ public class ColorProcessor extends ImageProcessor {
     }
 
 
+    @Override
+    public void applyTable(int[] lut) {
+
+    }
+
     public ImageProcessor duplicate() {
         int[] pixels2 = new int[width*height];
         System.arraycopy(pixels, 0, pixels2, 0, width*height);

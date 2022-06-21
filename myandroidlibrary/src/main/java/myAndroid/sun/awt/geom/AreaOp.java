@@ -41,6 +41,49 @@ public abstract class AreaOp {
                                                   boolean inRight);
     }
 
+    public static class EOWindOp extends AreaOp {
+        private boolean inside;
+
+        public void newRow() {
+            inside = false;
+        }
+
+        public int classify(Edge e) {
+            // Note: the right curves should be an empty set with this op...
+            // assert(e.getCurveTag() == CTAG_LEFT);
+            boolean newInside = !inside;
+            inside = newInside;
+            return (newInside ? ETAG_ENTER : ETAG_EXIT);
+        }
+
+        public int getState() {
+            return (inside ? RSTAG_INSIDE : RSTAG_OUTSIDE);
+        }
+    }
+
+
+    public static class NZWindOp extends AreaOp {
+        private int count;
+
+        public void newRow() {
+            count = 0;
+        }
+
+        public int classify(Edge e) {
+            // Note: the right curves should be an empty set with this op...
+            // assert(e.getCurveTag() == CTAG_LEFT);
+            int newCount = count;
+            int type = (newCount == 0 ? ETAG_ENTER : ETAG_IGNORE);
+            newCount += e.getCurve().getDirection();
+            count = newCount;
+            return (newCount == 0 ? ETAG_EXIT : type);
+        }
+
+        public int getState() {
+            return ((count == 0) ? RSTAG_OUTSIDE : RSTAG_INSIDE);
+        }
+    }
+
 
 
     /* Constants to tag the left and right curves in the edge list */

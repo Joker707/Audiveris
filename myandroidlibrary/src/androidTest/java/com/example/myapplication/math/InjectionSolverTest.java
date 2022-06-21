@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------------------------//
 //                                                                                                //
-//                                           P u r s e                                            //
+//                             I n j e c t i o n S o l v e r T e s t                              //
 //                                                                                                //
 //------------------------------------------------------------------------------------------------//
 // <editor-fold defaultstate="collapsed" desc="hdr">
@@ -19,45 +19,68 @@
 //  program.  If not, see <http://www.gnu.org/licenses/>.
 //------------------------------------------------------------------------------------------------//
 // </editor-fold>
-package com.example.myapplication.jaxb.basic;
+package com.example.myapplication.math;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
+import junit.framework.TestCase;
+import org.audiveris.omr.math.InjectionSolver;
 
 /**
- * DOCUMENT ME!
  *
  * @author Hervé Bitteur
  */
-@XmlAccessorType(XmlAccessType.NONE)
-public class Purse
+public class InjectionSolverTest
+        extends TestCase
 {
 
-    @XmlElement(name = "tip")
-    public double[] tips = new double[]{1.0, 2.345, 4.5};
-
-    public Double[] getTips ()
+    /**
+     * Creates a new InjectionSolverTest object.
+     *
+     * @param testName DOCUMENT ME!
+     */
+    public InjectionSolverTest (String testName)
     {
-        Double[] dd = null;
-
-        if (tips != null) {
-            dd = new Double[tips.length];
-
-            for (int i = 0; i < tips.length; i++) {
-                dd[i] = tips[i];
-            }
-        }
-
-        return dd;
+        super(testName);
     }
 
-    public void setTips (Double[] tips)
+    /**
+     * Test of solve method, of class omr.math.InjectionSolver.
+     */
+    public void testSolve ()
     {
-        this.tips = new double[tips.length];
+        System.out.println("solve");
 
-        for (int i = 0; i < tips.length; i++) {
-            this.tips[i] = tips[i];
+        InjectionSolver instance = new InjectionSolver(3, 3, new MyDistance());
+
+        int[] expResult = new int[]{0, 1, 2};
+        int[] result = instance.solve();
+
+        //assertEquals(expResult, result);
+    }
+
+    protected void setUp ()
+            throws Exception
+    {
+    }
+
+    protected void tearDown ()
+            throws Exception
+    {
+    }
+
+    public static class MyDistance
+            implements InjectionSolver.Distance
+    {
+
+        public MyDistance ()
+        {
+        }
+
+        @Override
+        public int getDistance (int in,
+                                int ip,
+                                StringBuilder details)
+        {
+            return Math.abs((1 + in) - ip);
         }
     }
 }
